@@ -1,0 +1,43 @@
+const Images = {
+  walter: require("./images/walter.jpeg"),
+  linkedin: require("./images/linkedin.png"),
+  github: require("./images/github.png"),
+  techStackBefore: {
+    games: {
+      actionscript3: require("./images/techStackBefore/actionscript3.png"),
+      flash: require("./images/techStackBefore/flash.png"),
+      unity3d: require("./images/techStackBefore/unity3d.png"),
+      html5Canvas: require("./images/techStackBefore/html5_canvas.png"),
+      java: require("./images/techStackBefore/java.png"),
+      msdotnet: require("./images/techStackBefore/msdotnet.png"),
+      csharp: require("./images/techStackBefore/csharp.png"),
+      mssql: require("./images/techStackBefore/mssql.png"),
+    },
+    applications: {
+      css: require("./images/techStackBefore/css.png"),
+      cypress: require("./images/techStackBefore/cypress.png"),
+      electron: require("./images/techStackBefore/electron.png"),
+      firebase: require("./images/techStackBefore/firebase.png"),
+      flutter: require("./images/techStackBefore/flutter.png"),
+      graphql: require("./images/techStackBefore/graphql.png"),
+      html: require("./images/techStackBefore/html.png"),
+      javascript: require("./images/techStackBefore/javascript.png"),
+      jest: require("./images/techStackBefore/jest.png"),
+      react: require("./images/techStackBefore/react.png"),
+      redux: require("./images/techStackBefore/redux.png"),
+      swiftui: require("./images/techStackBefore/swiftui.png"),
+      typescript: require("./images/techStackBefore/typescript.png"),
+      sketch: require("./images/techStackBefore/sketch.png"),
+      adobexd: require("./images/techStackBefore/adobexd.png"),
+      zeplin: require("./images/techStackBefore/zeplin.png"),
+      node: require("./images/techStackBefore/nodejs.png"),
+      webstorm: require("./images/techStackBefore/webstorm.png"),
+      vscode: require("./images/techStackBefore/vscode.png"),
+      xcode: require("./images/techStackBefore/xcode.png"),
+      androidStudio: require("./images/techStackBefore/android_studio.png"),
+      mongodb: require("./images/techStackBefore/mongodb.png"),
+    },
+  },
+};
+
+export { Images };

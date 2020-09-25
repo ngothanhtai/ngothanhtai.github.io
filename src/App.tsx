@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Awards } from "./components/Awards/Awards";
+import { Education } from "./components/Education/Education";
+import { Languages } from "./components/Languages/Languages";
+import { Profile } from "./components/Profile/Profile";
+import { Publication } from "./components/Publication/Publication";
+import { Skills } from "./components/Skills/Skills";
+import { Summary } from "./components/Summary/Summary";
+import { VolunteerExperience } from "./components/VolunteerExperience/VolunteerExperience";
+import { WorkExperience } from "./components/WorkExperience/WorkExperience";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Profile />
+      <Summary />
+      <Skills />
+      <WorkExperience />
+      <Languages />
+      <Publication />
+      <Awards />
+      <Education />
+      <VolunteerExperience />
     </div>
   );
-}
+};
 
 export default App;

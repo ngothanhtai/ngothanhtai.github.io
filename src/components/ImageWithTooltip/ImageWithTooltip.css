@@ -1,0 +1,24 @@
+img.grayscale {
+  filter: grayscale(96%);
+  width: 50px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 8px 4px;
+  object-fit: contain;
+  box-sizing: border-box;
+  transition: border 0.15s ease-in-out, background-color ease-in-out 0.5s;
+}
+
+img:hover.grayscale {
+  border: 1.4px dashed gray;
+  filter: grayscale(0%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tooltip {
+  position: fixed;
+  background-color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
