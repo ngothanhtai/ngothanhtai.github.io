@@ -65,3 +65,76 @@ a:hover {
 .hidden {
   visibility: hidden;
 }
+
+.highlightOnHover {
+  border-radius: 8px;
+  padding: 8px 8px;
+  box-sizing: border-box;
+  transition: background-color ease-in-out 0.5s;
+}
+
+:hover.highlightOnHover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.relative {
+  position: relative;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.body {
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.opacity1 {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+.fadeIn1 {
+  animation: fadeIn 1s ease-in-out 0.5s forwards;
+}
+
+.fadeIn2 {
+  animation: fadeIn 1s ease-in-out 1.2s forwards;
+}
+
+.fadeIn3 {
+  animation: fadeIn 1s ease-in-out 2.2s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.textDecorationNone {
+  text-decoration: none !important;
+  outline: none;
+}

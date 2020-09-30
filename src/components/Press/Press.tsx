@@ -1,32 +1,24 @@
 import React from "react";
-import classnames from "classnames";
+import { Sounds } from "../../assets/sounds";
 import "./Press.css";
 
 type Props = {
   onPress(): void;
+  pressDelay?: number;
 };
 
-const Press: React.FC<Props> = ({ children, onPress }) => {
-  const [scalingIn, setScaleIn] = React.useState(false);
+const audio = new Audio(Sounds.click);
+audio.preload = "auto";
 
-  const onMouseDown = React.useCallback(() => {
-    setScaleIn(true);
-  }, []);
-
+const Press: React.FC<Props> = ({ children, onPress, pressDelay = 450 }) => {
   const onMouseUp = React.useCallback(() => {
-    setScaleIn(false);
+    audio.play();
 
-    setTimeout(onPress, 450);
-  }, [onPress]);
+    setTimeout(onPress, pressDelay);
+  }, [onPress, pressDelay]);
 
   return (
-    <div
-      onMouseDown={onMouseDown}
-      onMouseUp={onMouseUp}
-      className={classnames("cursor-pointer scalingBase", {
-        scalingIn,
-      })}
-    >
+    <div onMouseUp={onMouseUp} className="cursor-pointer scalingBase">
       {children}
     </div>
   );

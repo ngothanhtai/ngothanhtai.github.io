@@ -193,7 +193,7 @@ const Skills: React.FC = () => {
           ⭐️⭐️⭐️⭐️⭐️
         </span>
       </h1>
-      <p>
+      <p className="body">
         Moving from ActionScript 3 to Javascript, I feel that ActionScript 3 is
         like Typescript for Javascript today. Which I can use class, interface,
         inherit, typed language. I used ActionScript 3 for three years. I
@@ -212,7 +212,7 @@ const Skills: React.FC = () => {
           ⭐️⭐️⭐️⭐️
         </span>
       </h1>
-      <p>
+      <p className="body">
         I use them along with: - GraphQL to handle API requests or local state -
         Redux to manage state - Jest to test the component's functionality. -
         Cypress for end-to-end testing - Material UI for UI controls - Bitrise
@@ -226,7 +226,7 @@ const Skills: React.FC = () => {
           ⭐️⭐️⭐️
         </span>
       </h1>
-      <p>
+      <p className="body">
         Flutter is my favorite framework SDK at the moment, which helps to build
         UI consistently on Android and iOS. And with a statically typed
         language, Dart, making development for Flutter is satisfying. I have
@@ -241,7 +241,7 @@ const Skills: React.FC = () => {
           ⭐️⭐️
         </span>
       </h1>
-      <p>
+      <p className="body">
         With the syntax familiar to Javascript / Typescript, learning Swift is
         faster than I think. I can use Swift to build an iOS native app with
         listings, messaging, in-app notifications, and handle the view of

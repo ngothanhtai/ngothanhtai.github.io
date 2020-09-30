@@ -5,6 +5,7 @@ import { Education } from "./components/Education/Education";
 import { Languages } from "./components/Languages/Languages";
 import { Profile } from "./components/Profile/Profile";
 import { Publication } from "./components/Publication/Publication";
+import { SideProjects } from "./components/SideProjects/SideProjects";
 import { Skills } from "./components/Skills/Skills";
 import { Summary } from "./components/Summary/Summary";
 import { VolunteerExperience } from "./components/VolunteerExperience/VolunteerExperience";
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Profile />
       <Summary />
       <Skills />
+      <SideProjects />
       <WorkExperience />
       <Languages />
       <Publication />

@@ -3,6 +3,6 @@
   transition: transform 0.25s;
 }
 
-.scalingIn {
+:active.scalingBase {
   transform: scale(0.96, 0.96);
 }

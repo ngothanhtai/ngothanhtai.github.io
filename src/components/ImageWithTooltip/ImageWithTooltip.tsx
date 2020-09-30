@@ -49,7 +49,7 @@ const ImageWithTooltip: React.FC<Props> = ({
       <img
         onMouseOver={onMouseOver}
         onMouseOut={onMouseOut}
-        className="grayscale"
+        className="grayscale highlightOnHover"
         alt={imageAlt}
         src={imageSource}
       />

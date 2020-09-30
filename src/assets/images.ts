@@ -38,6 +38,22 @@ const Images = {
       mongodb: require("./images/techStackBefore/mongodb.png"),
     },
   },
+  sideProjects: {
+    walterscc: require("./images/sideProjects/walterscc.png"),
+    waltersccScreenshot: require("./images/sideProjects/walterscc-screenshot.png"),
+    mgl: require("./images/sideProjects/mgl.png"),
+    mglScreenshot: require("./images/sideProjects/mgl-screenshot.png"),
+    whatTheFOOD: require("./images/sideProjects/what-the-food.png"),
+    displayConnectedWifiName: require("./images/sideProjects/display-connected-wifi-name.png"),
+    displayConnectedWifiNameScreenshot: require("./images/sideProjects/display-connected-wifi-name-screenshot.png"),
+    scrollToTop: require("./images/sideProjects/scroll-to-top.png"),
+    scrollToTopScreenshot: require("./images/sideProjects/scroll-to-top-screenshot.png"),
+    storeDownloadBadges: {
+      appstore: require("./images/sideProjects/store-download-badges/appstore.svg"),
+      playstore: require("./images/sideProjects/store-download-badges/playstore.png"),
+      macAppStore: require("./images/sideProjects/store-download-badges/mac-app-store.svg"),
+    },
+  },
 };
 
 export { Images };

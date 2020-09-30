@@ -1,47 +1,82 @@
 import React from "react";
 import { Images } from "../../assets/images";
+import { Press } from "../Press/Press";
 import { Spacer } from "../Spacer/Spacer";
 
 const ContactInformation: React.FC = () => {
   return (
     <div>
-      <div className="flex flexRow aiCenter">
-        <span role="img" aria-label="Email">
-          📧
-        </span>
-        <Spacer width={6} />
-        <a href="mailto:codesigngo@gmail.com">codesigngo@gmail.com</a>
-      </div>
+      <Press
+        onPress={() => {
+          window.open("mailto:codesigngo@gmail.com");
+        }}
+      >
+        <div className="flex flexRow aiCenter highlightOnHover">
+          <span role="img" aria-label="Email" className="label">
+            📧
+          </span>
+          <Spacer width={6} />
+          <span className="label">codesigngo@gmail.com</span>
+        </div>
+      </Press>
 
-      <Spacer height={8} />
+      <Press
+        onPress={() => {
+          window.open("tel:+84908873436");
+        }}
+      >
+        <div className="flex flexRow aiCenter highlightOnHover">
+          <span role="img" aria-label="Mobile phone" className="label">
+            📞
+          </span>
+          <Spacer width={6} />
+          <span className="label">+84 908 87 34 36</span>
+        </div>
+      </Press>
 
-      <div className="flex flexRow aiCenter">
-        <span role="img" aria-label="Mobile phone">
-          📞
-        </span>
-        <Spacer width={6} />
-        <a href="tel:+84908873436">+84 908 87 34 36</a>
-      </div>
+      <Press
+        onPress={() => {
+          window.open("https://linkedin.com/in/ngothanhtai", "_blank");
+        }}
+      >
+        <div className="flex flexRow aiCenter highlightOnHover">
+          <img src={Images.linkedin} alt="LinkedIn" width={18} />
+          <Spacer width={6} />
+          <span className="label">ngothanhtai</span>
+        </div>
+      </Press>
 
-      <Spacer height={8} />
+      <Press
+        onPress={() => {
+          window.open("https://github.com/ngothanhtai", "_blank");
+        }}
+      >
+        <div className="flex flexRow aiCenter highlightOnHover">
+          <img src={Images.github} alt="Github" width={18} />
+          <Spacer width={6} />
+          <span className="label">ngothanhtai</span>
+        </div>
+      </Press>
 
-      <div className="flex flexRow aiCenter">
-        <img src={Images.linkedin} alt="LinkedIn" width={24} />
-        <Spacer width={6} />
-        <a href="https://linkedin.com/in/ngothanhtai">
-          https://linkedin.com/in/ngothanhtai
-        </a>
-      </div>
-
-      <Spacer height={8} />
-
-      <div className="flex flexRow aiCenter">
-        <img src={Images.github} alt="Github" width={24} />
-        <Spacer width={6} />
-        <a href="https://github.com/ngothanhtai">
-          https://github.com/ngothanhtai
-        </a>
-      </div>
+      <Press
+        onPress={() => {
+          window.open(
+            "https://www.google.com/maps/place/Vietnam/@15.7477571,101.4151052,6z/data=!3m1!4b1!4m5!3m4!1s0x31157a4d736a1e5f:0xb03bb0c9e2fe62be!8m2!3d14.058324!4d108.277199",
+            "_blank"
+          );
+        }}
+      >
+        <div className="flex flexRow aiCenter highlightOnHover">
+          <span role="img" aria-label="Location" className="label">
+            🗺
+          </span>
+          <Spacer width={6} />
+          <div>
+            <div className="label">Vietnam</div>
+            <div className="label">(I can relocate for work)</div>
+          </div>
+        </div>
+      </Press>
     </div>
   );
 };
