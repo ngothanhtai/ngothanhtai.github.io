@@ -142,3 +142,7 @@ a:hover {
   text-decoration: none !important;
   outline: none;
 }
+
+.appIcon {
+  border-radius: 8px;
+}

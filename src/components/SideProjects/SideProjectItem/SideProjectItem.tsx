@@ -46,12 +46,18 @@ const SideProjectItem: React.FC<Props> = ({
                 <div className="flex flexRow highlightOnHover">
                   {icon && (
                     <>
-                      <img src={icon} height={50} alt={name} />
+                      <img
+                        src={icon}
+                        height={50}
+                        alt={name}
+                        className="appIcon"
+                      />
                       <Spacer width={6} />
                     </>
                   )}
                   <div className="flex flexColumn jcCenter">
                     <div className="subtitle fw500">{name}</div>
+                    <Spacer height={2} />
                     <div className="label">Publish date: {publishDate}</div>
                   </div>
                 </div>
