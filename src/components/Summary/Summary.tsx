@@ -8,7 +8,11 @@ const Summary: React.FC = () => {
       href={`#${HashUrl.summary}`}
       className="textDecorationNone"
     >
-      <h1>Summary</h1>
+      <h1>
+        <span role="img" aria-label="Summary">
+          📃 Summary
+        </span>
+      </h1>
       <div>
         <p className="body">
           I'm a software engineer based in Vietnam with eight years of

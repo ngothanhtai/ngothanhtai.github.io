@@ -10,9 +10,8 @@ const VolunteerExperience: React.FC = () => {
     >
       <h1>
         <span role="img" aria-label="Volunteer Experience">
-          ✋
-        </span>{" "}
-        Volunteer Experience
+          ✋ Volunteer Experience
+        </span>
       </h1>
       <ul>
         <li>

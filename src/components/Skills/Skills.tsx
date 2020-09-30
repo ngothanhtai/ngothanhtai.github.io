@@ -171,7 +171,11 @@ const Skills: React.FC = () => {
       href={`#${HashUrl.skills}`}
       className="textDecorationNone"
     >
-      <h1>Skills</h1>
+      <h1>
+        <span role="img" aria-label="Skills">
+          🛠 Skills
+        </span>
+      </h1>
       <h2>Programming languages, Librarires and Tools</h2>
       <h3>I used before:</h3>
       <div className="flex flexRow flexWrap">

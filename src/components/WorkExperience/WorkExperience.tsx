@@ -54,7 +54,11 @@ const WorkExperience: React.FC = () => {
       href={`#${HashUrl.workExperience}`}
       className="textDecorationNone"
     >
-      <h1>Work Experience</h1>
+      <h1>
+        <span role="img" aria-label="Work Experience">
+          💼 Work Experience
+        </span>
+      </h1>
       {renderWorkExperience({
         title: "Flash Game Developer at KingCorp",
         time: "March 2011 to March 2012",

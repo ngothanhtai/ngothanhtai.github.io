@@ -10,15 +10,13 @@ const Languages: React.FC = () => {
     >
       <h1>
         <span role="img" aria-label="Languages">
-          🗣
-        </span>{" "}
-        Languages
+          🗣 Languages
+        </span>
       </h1>
       <h2>
         <span role="img" aria-label="English">
-          🇬🇧
-        </span>{" "}
-        English: Intermediate{" "}
+          🇬🇧 English: Intermediate
+        </span>
       </h2>
       <p>
         - IELTS Certificate with band score: <b>5.5</b>
@@ -28,9 +26,8 @@ const Languages: React.FC = () => {
 
       <h2>
         <span role="img" aria-label="Vietnamese">
-          🇻🇳
-        </span>{" "}
-        Vietnamese: Native language
+          🇻🇳 Vietnamese: Native language
+        </span>
       </h2>
     </a>
   );

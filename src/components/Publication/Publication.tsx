@@ -10,9 +10,8 @@ const Publication: React.FC = () => {
     >
       <h1>
         <span role="img" aria-label="Publication">
-          📜
-        </span>{" "}
-        Publication
+          📜 Publication
+        </span>
       </h1>
       <ul>
         <li>

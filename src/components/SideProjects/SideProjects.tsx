@@ -88,10 +88,9 @@ const SideProjects: React.FC = () => {
       className="textDecorationNone"
     >
       <h1>
-        <span role="img" aria-label="Side projects">
-          🛠
-        </span>{" "}
-        Side Projects
+        <span role="img" aria-label="Side Projects">
+          🪓 Side Projects
+        </span>
       </h1>
 
       <h3>
