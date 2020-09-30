@@ -27,6 +27,7 @@ const SideProjectItem: React.FC<Props> = ({
         className="textDecorationNone"
         onClick={(e) => {
           e.preventDefault();
+
           updateHashUrl(anchorHash);
         }}
       >

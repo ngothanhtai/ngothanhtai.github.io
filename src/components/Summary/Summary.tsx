@@ -1,8 +1,13 @@
 import React from "react";
+import { HashUrl } from "../../utils/constants";
 
 const Summary: React.FC = () => {
   return (
-    <>
+    <a
+      id={HashUrl.summary}
+      href={`#${HashUrl.summary}`}
+      className="textDecorationNone"
+    >
       <h1>Summary</h1>
       <div>
         <p className="body">
@@ -36,7 +41,7 @@ const Summary: React.FC = () => {
           Native / Flutter or SwiftUI.
         </p>
       </div>
-    </>
+    </a>
   );
 };
 

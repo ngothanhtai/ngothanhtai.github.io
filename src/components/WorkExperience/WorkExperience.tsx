@@ -1,4 +1,5 @@
 import React from "react";
+import { HashUrl } from "../../utils/constants";
 
 const renderWorkExperience = ({
   title,
@@ -48,8 +49,12 @@ const renderWorkExperience = ({
 
 const WorkExperience: React.FC = () => {
   return (
-    <>
-      <h1>Work experience</h1>
+    <a
+      id={HashUrl.workExperience}
+      href={`#${HashUrl.workExperience}`}
+      className="textDecorationNone"
+    >
+      <h1>Work Experience</h1>
       {renderWorkExperience({
         title: "Flash Game Developer at KingCorp",
         time: "March 2011 to March 2012",
@@ -288,7 +293,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
       })}
-    </>
+    </a>
   );
 };
 

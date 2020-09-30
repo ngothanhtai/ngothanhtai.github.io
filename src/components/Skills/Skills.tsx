@@ -1,5 +1,6 @@
 import React from "react";
 import { Images } from "../../assets/images";
+import { HashUrl } from "../../utils/constants";
 import { ImageWithTooltip } from "../ImageWithTooltip/ImageWithTooltip";
 import { Spacer } from "../Spacer/Spacer";
 
@@ -165,7 +166,11 @@ const usingTechStack = [
 
 const Skills: React.FC = () => {
   return (
-    <>
+    <a
+      id={HashUrl.skills}
+      href={`#${HashUrl.skills}`}
+      className="textDecorationNone"
+    >
       <h1>Skills</h1>
       <h2>Programming languages, Librarires and Tools</h2>
       <h3>I used before:</h3>
@@ -253,7 +258,7 @@ const Skills: React.FC = () => {
         to lister, like Redux in React Native and Provider in Flutter. I am
         starting using SwiftUI to use it for native iOS, macOS projects.
       </p>
-    </>
+    </a>
   );
 };
 

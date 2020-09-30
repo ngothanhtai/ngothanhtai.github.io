@@ -1,8 +1,13 @@
 import React from "react";
+import { HashUrl } from "../../utils/constants";
 
 const Awards: React.FC = () => {
   return (
-    <>
+    <a
+      id={HashUrl.awards}
+      href={`#${HashUrl.awards}`}
+      className="textDecorationNone"
+    >
       <h1>
         <span role="img" aria-label="Awards">
           🏆 Awards
@@ -25,7 +30,7 @@ const Awards: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </a>
   );
 };
 

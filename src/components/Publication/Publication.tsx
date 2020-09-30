@@ -1,8 +1,13 @@
 import React from "react";
+import { HashUrl } from "../../utils/constants";
 
 const Publication: React.FC = () => {
   return (
-    <>
+    <a
+      id={HashUrl.publication}
+      href={`#${HashUrl.publication}`}
+      className="textDecorationNone"
+    >
       <h1>
         <span role="img" aria-label="Publication">
           📜
@@ -33,7 +38,7 @@ const Publication: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </a>
   );
 };
 

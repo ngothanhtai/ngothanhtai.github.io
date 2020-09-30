@@ -1,8 +1,13 @@
 import React from "react";
+import { HashUrl } from "../../utils/constants";
 
 const Languages: React.FC = () => {
   return (
-    <>
+    <a
+      id={HashUrl.languages}
+      href={`#${HashUrl.languages}`}
+      className="textDecorationNone"
+    >
       <h1>
         <span role="img" aria-label="Languages">
           🗣
@@ -27,7 +32,7 @@ const Languages: React.FC = () => {
         </span>{" "}
         Vietnamese: Native language
       </h2>
-    </>
+    </a>
   );
 };
 

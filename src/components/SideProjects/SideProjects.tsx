@@ -1,5 +1,6 @@
 import React from "react";
 import { Images } from "../../assets/images";
+import { HashUrl } from "../../utils/constants";
 import { Spacer } from "../Spacer/Spacer";
 import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConnectedWifiName";
 import { MGL } from "./MGL/MGL";
@@ -81,12 +82,16 @@ const sideProjectsOpenSource = [
 
 const SideProjects: React.FC = () => {
   return (
-    <div>
+    <a
+      id={HashUrl.sideProjects}
+      href={`#${HashUrl.sideProjects}`}
+      className="textDecorationNone"
+    >
       <h1>
         <span role="img" aria-label="Side projects">
           🛠
         </span>{" "}
-        Side projects
+        Side Projects
       </h1>
 
       <h3>
@@ -134,7 +139,7 @@ const SideProjects: React.FC = () => {
           </React.Fragment>
         );
       })}
-    </div>
+    </a>
   );
 };
 
