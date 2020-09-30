@@ -12,7 +12,8 @@ audio.preload = "auto";
 
 const Press: React.FC<Props> = ({ children, onPress, pressDelay = 450 }) => {
   const onMouseUp = React.useCallback(() => {
-    audio.play();
+    const cloneAudio = audio.cloneNode() as HTMLAudioElement;
+    cloneAudio.play();
 
     setTimeout(onPress, pressDelay);
   }, [onPress, pressDelay]);
