@@ -6,4 +6,8 @@ const updateHashUrl = (hash: string) => {
   }
 };
 
-export { updateHashUrl };
+const isMatchHashUrl = (hash: string) => {
+  return window.location.hash === `#${hash}`;
+};
+
+export { updateHashUrl, isMatchHashUrl };

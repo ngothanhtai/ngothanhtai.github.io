@@ -1,5 +1,5 @@
 import React from "react";
-import { updateHashUrl } from "../../../utils/url";
+import { isMatchHashUrl, updateHashUrl } from "../../../utils/url";
 import { Press } from "../../Press/Press";
 import { Spacer } from "../../Spacer/Spacer";
 
@@ -17,7 +17,7 @@ type Props = {
 const SideProjectItem: React.FC<Props> = ({
   data: { name, publishDate, content, anchorHash, icon, onPress },
 }) => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = React.useState(isMatchHashUrl(anchorHash));
 
   return (
     <div>

@@ -37,7 +37,7 @@ const sideProjectsMacApps = [
     publishDate: "12 October 2018",
     name: "Walter's Currency Converter",
     content: <WaltersCurrencyConverter />,
-    anchorHash: "walters-currency-converter",
+    anchorHash: "walters-currency-converter-for-mac",
     icon: Images.sideProjects.walterscc,
   },
   {
