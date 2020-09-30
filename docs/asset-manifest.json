@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1f86bb3.chunk.css",
+    "main.js": "/static/js/main.dafa45a5.chunk.js",
+    "main.js.map": "/static/js/main.dafa45a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa55c731.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa55c731.js.map",
+    "static/js/2.6f8cba21.chunk.js": "/static/js/2.6f8cba21.chunk.js",
+    "static/js/2.6f8cba21.chunk.js.map": "/static/js/2.6f8cba21.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a76dd808901166f980784a3f90e088c1.js": "/precache-manifest.a76dd808901166f980784a3f90e088c1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c1f86bb3.chunk.css.map": "/static/css/main.c1f86bb3.chunk.css.map",
+    "static/js/2.6f8cba21.chunk.js.LICENSE.txt": "/static/js/2.6f8cba21.chunk.js.LICENSE.txt",
+    "static/media/appstore.svg": "/static/media/appstore.0f3514a4.svg",
+    "static/media/click.wav": "/static/media/click.8b2e00cf.wav",
+    "static/media/display-connected-wifi-name-screenshot.png": "/static/media/display-connected-wifi-name-screenshot.1c4dd1cb.png",
+    "static/media/github.png": "/static/media/github.3e54ed15.png",
+    "static/media/mac-app-store.svg": "/static/media/mac-app-store.1290c17d.svg",
+    "static/media/mgl-screenshot.png": "/static/media/mgl-screenshot.9880dd46.png",
+    "static/media/scroll-to-top-screenshot.png": "/static/media/scroll-to-top-screenshot.fcc2e055.png",
+    "static/media/walter.jpeg": "/static/media/walter.4587b433.jpeg",
+    "static/media/walterscc-screenshot.png": "/static/media/walterscc-screenshot.8a99f5c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa55c731.js",
+    "static/js/2.6f8cba21.chunk.js",
+    "static/css/main.c1f86bb3.chunk.css",
+    "static/js/main.dafa45a5.chunk.js"
+  ]
+}
