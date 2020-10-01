@@ -3,16 +3,18 @@ import { HashUrl } from "../../utils/constants";
 
 const Languages: React.FC = () => {
   return (
-    <a
-      id={HashUrl.languages}
-      href={`#${HashUrl.languages}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Languages">
-          🗣 Languages
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.languages}
+        href={`#${HashUrl.languages}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Languages">
+            🗣 Languages
+          </span>
+        </h1>
+      </a>
       <h2>
         <span role="img" aria-label="English">
           🇬🇧 English: Intermediate
@@ -29,7 +31,7 @@ const Languages: React.FC = () => {
           🇻🇳 Vietnamese: Native language
         </span>
       </h2>
-    </a>
+    </>
   );
 };
 

@@ -3,16 +3,18 @@ import { HashUrl } from "../../utils/constants";
 
 const Awards: React.FC = () => {
   return (
-    <a
-      id={HashUrl.awards}
-      href={`#${HashUrl.awards}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Awards">
-          🏆 Awards
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.awards}
+        href={`#${HashUrl.awards}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Awards">
+            🏆 Awards
+          </span>
+        </h1>
+      </a>
       <ul>
         <li>
           <p>1st Winner of Jenius Hackathon</p>
@@ -30,7 +32,7 @@ const Awards: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </a>
+    </>
   );
 };
 

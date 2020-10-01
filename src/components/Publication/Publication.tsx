@@ -3,16 +3,18 @@ import { HashUrl } from "../../utils/constants";
 
 const Publication: React.FC = () => {
   return (
-    <a
-      id={HashUrl.publication}
-      href={`#${HashUrl.publication}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Publication">
-          📜 Publication
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.publication}
+        href={`#${HashUrl.publication}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Publication">
+            📜 Publication
+          </span>
+        </h1>
+      </a>
       <ul>
         <li>
           <a href="https://taimienphi.vn/download-walter-s-currency-converter-84774">
@@ -37,7 +39,7 @@ const Publication: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </a>
+    </>
   );
 };
 

@@ -3,16 +3,18 @@ import { HashUrl } from "../../utils/constants";
 
 const Summary: React.FC = () => {
   return (
-    <a
-      id={HashUrl.summary}
-      href={`#${HashUrl.summary}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Summary">
-          📃 Summary
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.summary}
+        href={`#${HashUrl.summary}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Summary">
+            📃 Summary
+          </span>
+        </h1>
+      </a>
       <div>
         <p className="body">
           I'm a software engineer based in Vietnam with eight years of
@@ -20,32 +22,31 @@ const Summary: React.FC = () => {
         </p>
 
         <p className="body">
-          I have worked as a Flash Game Developer for three years and Unity 3D
-          for one year. Then I changed to become a mobile developer, where I
-          used Swift to build an iOS app for one year, then use React Native for
-          three years. I also use React to build websites for one year. I have
-          been using Flutter for nearly one year to build two side projects.
+          A former game developer, I now enjoy building mobile apps. After using
+          iOS Swift, React Native, and Flutter on several projects I wanted to
+          grow as a mobile developer and develop skills in mobile development.
+        </p>
+
+        <p className="body">
+          A kinesthetic learner and all-round technology enthusiast, I also
+          worked as a teaching assistant at CoderSchool React Native Saigon
+          Bootcamp, where I have got to approach React Native from a fresh
+          perspective. I believe in the power of sharing and learning by doing.
+          Although I can work independently. I have always considered that I am
+          hardworking and patient, and try to do things in more efficient ways.
         </p>
 
         <p className="body">
           I am a product person because I prefer focusing on building the user
-          interface, user experience, an eye on detail, and features than
-          spending time on doing on tech debts. I mostly follow my tech lead's
-          guide.
+          interface, user experience, an eye on detail, and features.
         </p>
 
         <p className="body">
-          I have always considered that I am hardworking and patient, interested
-          in learning new technologies and try to do things in more efficient
-          ways.
-        </p>
-
-        <p className="body">
-          I am looking to work for a front-end job that will use React / React
-          Native / Flutter or SwiftUI.
+          I am looking to work for a front-end or mobile developer job that will
+          use React / React Native / Flutter or SwiftUI.
         </p>
       </div>
-    </a>
+    </>
   );
 };
 

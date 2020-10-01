@@ -166,16 +166,18 @@ const usingTechStack = [
 
 const Skills: React.FC = () => {
   return (
-    <a
-      id={HashUrl.skills}
-      href={`#${HashUrl.skills}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Skills">
-          🛠 Skills
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.skills}
+        href={`#${HashUrl.skills}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Skills">
+            🛠 Skills
+          </span>
+        </h1>
+      </a>
       <h2>Programming languages, Librarires and Tools</h2>
       <h3>I used before:</h3>
       <div className="flex flexRow flexWrap">
@@ -244,7 +246,7 @@ const Skills: React.FC = () => {
         to lister, like Redux in React Native and Provider in Flutter. I am
         starting using SwiftUI to use it for native iOS, macOS projects.
       </p>
-    </a>
+    </>
   );
 };
 

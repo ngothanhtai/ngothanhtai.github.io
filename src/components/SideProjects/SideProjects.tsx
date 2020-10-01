@@ -82,16 +82,18 @@ const sideProjectsOpenSource = [
 
 const SideProjects: React.FC = () => {
   return (
-    <a
-      id={HashUrl.sideProjects}
-      href={`#${HashUrl.sideProjects}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Side Projects">
-          🪓 Side Projects
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.sideProjects}
+        href={`#${HashUrl.sideProjects}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Side Projects">
+            🪓 Side Projects
+          </span>
+        </h1>
+      </a>
 
       <h3>
         <span role="img" aria-label="Mobile apps">
@@ -138,7 +140,7 @@ const SideProjects: React.FC = () => {
           </React.Fragment>
         );
       })}
-    </a>
+    </>
   );
 };
 

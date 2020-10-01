@@ -49,16 +49,18 @@ const renderWorkExperience = ({
 
 const WorkExperience: React.FC = () => {
   return (
-    <a
-      id={HashUrl.workExperience}
-      href={`#${HashUrl.workExperience}`}
-      className="textDecorationNone"
-    >
-      <h1>
-        <span role="img" aria-label="Work Experience">
-          💼 Work Experience
-        </span>
-      </h1>
+    <>
+      <a
+        id={HashUrl.workExperience}
+        href={`#${HashUrl.workExperience}`}
+        className="textDecorationNone"
+      >
+        <h1>
+          <span role="img" aria-label="Work Experience">
+            💼 Work Experience
+          </span>
+        </h1>
+      </a>
       {renderWorkExperience({
         title: "Flash Game Developer at KingCorp",
         time: "March 2011 to March 2012",
@@ -297,7 +299,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
       })}
-    </a>
+    </>
   );
 };
 
