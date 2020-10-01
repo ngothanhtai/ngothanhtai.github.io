@@ -16,11 +16,14 @@ const Education: React.FC = () => {
           </span>
         </h1>
       </a>
-      <h2>Aptech (2008 - 2010)</h2>
-      <p>High Diploma, Computer Software Engineering</p>
+      <ul>
+        <li>
+          2008 - 2010: APTECH High Diploma Certificated Computer Professional
+        </li>
 
-      <Spacer height={12} />
-      <h2>CoderSchool - iOS Swift Saigon Bootcamp 2016</h2>
+        <Spacer height={12} />
+        <li>2015 - 2016: CoderSchool - iOS Swift Saigon Bootcamp</li>
+      </ul>
     </>
   );
 };
