@@ -151,28 +151,43 @@ const WorkExperience: React.FC = () => {
         location: "Jakarta, Indonesia",
         description: (
           <>
-            <b>Non-disclose Agreement project</b>
+            <b>(Non-disclose Agreement project)</b>
             <p>
-              A digital banking project where the client wants to upgrade their
-              application (the website and mobile apps) from version 1 to
-              version 2. They chose React Native to build apps for iOS, Android,
-              and Web with a single code base.
+              A Financial mobile application which is for a simpler life and
+              smarter finance management solution. Totally built around the user
+              for personalized Life Finance management, from instantly taking
+              care of bill payments, and keeping spending on track, to
+              organizing the savings to achieve user’s goals. Moreover, it gives
+              the user complete access to all features simply using the
+              fingerprint.
             </p>
+            <h4>Responsibilities</h4>
             <ul>
               <li>
-                Term deposit: A term deposit that can be created, managed and
-                withdrawn right from your smart-phone
+                15 months as Senior Front-end Developer working onsite with big
+                team 100+ members in Jakarta indonesia for Financial mobile
+                application development base on ReactJS, React Native.
               </li>
+              <li>Well interact with the front-end team members.</li>
+              <li>Take part in continuous integration, git collaboration.</li>
               <li>
-                Goal Saver: An automatic savings with high-interest rates. You
-                decide on the deposit and the period yourself.
+                Defined code structured, documented and maintainable code.
               </li>
-              <li>Chat feature for Customer support</li>
-              <li>Support other teams to do the bug fixes and improvement</li>
+            </ul>
+
+            <h4>Challenging</h4>
+            <ul>
+              <li>Agile/Scrum development</li>
+              <li>Requires strong at English as well as technical skills</li>
+              <li>
+                Requires strong independent working as well as team working
+              </li>
+              <li>Can join to work as an members of international team</li>
             </ul>
           </>
         ),
-        techStack: "Flash ActionScript 3, HTML 5, Unity 3D C#",
+        techStack:
+          "Javascript (ES6), ReactJs, React Native, Redux, Router, Webpack, Git, GitLab, Webstorm, Enzyme, Code coverage and Linter",
       })}
 
       {renderWorkExperience({
@@ -181,11 +196,23 @@ const WorkExperience: React.FC = () => {
         location: "Jakarta, Indonesia",
         description: (
           <>
-            <b>Non-disclose Agreement project</b>
-            <p>
-              An MVP mobile application about Agriculture where users submit
-              applications to lend the money to grow rice
-            </p>
+            <b>(Non-disclose Agreement project)</b>
+            <ul>
+              <li>1.5 months working onsite in Jakarta, Indonesia.</li>
+              <li>
+                Working on FE with React-native to build application on Android.
+              </li>
+              <li>Well interact with the front-end team members.</li>
+              <li>
+                Responsible with front-end code reviews, writing testable code.
+              </li>
+              <li>Take part in continuous integration, git collaboration.</li>
+              <li>
+                Defined code structured, documented and maintainable code.
+              </li>
+              <li>Problem solving and analytical.</li>
+              <li>Work with business team to get requirement</li>
+            </ul>
           </>
         ),
         techStack: "React Native (Android only), Restful API",
