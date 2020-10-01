@@ -123,6 +123,11 @@ const usingTechStack = [
     website: "https://firebase.google.com",
   },
   {
+    imageSource: Images.techStackBefore.applications.photoshop,
+    imageAlt: "Photoshop",
+    website: "https://www.photoshop.com",
+  },
+  {
     imageSource: Images.techStackBefore.applications.sketch,
     imageAlt: "Sketch",
     website: "https://www.sketch.com",
@@ -132,6 +137,7 @@ const usingTechStack = [
     imageAlt: "Adobe XD",
     website: "https://www.adobe.com/products/xd.html",
   },
+
   {
     imageSource: Images.techStackBefore.applications.zeplin,
     imageAlt: "Zeplin",
