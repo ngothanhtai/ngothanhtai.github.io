@@ -67,9 +67,10 @@ const WorkExperience: React.FC = () => {
         location: "Ho Chi Minh City, Vietnam",
         description: (
           <ul>
+            <li>create a new game: Đánh Chắn</li>
             <li>
-              create a new game: Đánh Chắn - bug fixes and improvements for
-              existing realtime gambling Flash games
+              bug fixes and improvements for existing realtime gambling Flash
+              games
             </li>
           </ul>
         ),
@@ -91,7 +92,7 @@ const WorkExperience: React.FC = () => {
             <li>upgrade existing games to use the latest core</li>
           </ul>
         ),
-        techStack: "Flash Actionscript 3, C# and MSSQL",
+        techStack: "Flash Actionscript 3, Java and MSSQL",
       })}
 
       {renderWorkExperience({
@@ -117,7 +118,7 @@ const WorkExperience: React.FC = () => {
             </li>
           </ul>
         ),
-        techStack: "Flash ActionScript 3, HTML 5, Unity 3D C#",
+        techStack: "Flash ActionScript 3, HTML 5, Unity 3D C#, and Photoshop.",
       })}
 
       {renderWorkExperience({
@@ -127,22 +128,34 @@ const WorkExperience: React.FC = () => {
         description: (
           <ul>
             <li>
-              Build Flash games for kids to play on the website and then
-              converting them to HTML5 to support for Safari on iOS. Because at
-              that time, Apple does not support Flash on Safari for iPad and
-              iPhone.
+              After leaving Skoolbo, mobile apps are getting popular. I joined
+              an iOS Swift class at Coderschool, where I learned to build a
+              complete iOS app with a 3-person team. The class took me 3 months
+              to learn and do the final project. Coderschool has a demo day at
+              the end of the class. We are the winner of that demo day.
             </li>
             <li>
-              After done the Flash games, I was asked to do Unity games. I am
-              happy to learn it. I do the bug fixes and improvements, and also
-              adding new features to the existing Unity 3D games. I learned how
-              to develop games with Unity which needs lots of experience, from
-              modeling, handling bundle assets for offline usage, and
-              mathematic.
+              An audience at the demo day contacted me for his project. After
+              that, I joined his project as a co-founder where I took
+              responsibility to build mobile apps for iOS, find a person to
+              build an Android app and a friend to handle the backend. From the
+              technical side, we did finish the basic functionality, we launched
+              the app and let our team, CEO, and operation team to validate the
+              idea. It does not go well so we decided to stop working on this
+              project. One year for my first start-up.
+            </li>
+            <li>
+              An audience at the demo day contacted me for his project. After
+              that, I joined his project as a co-founder where I took
+              responsibility to build mobile apps for iOS, find a person to
+              build an Android app and a friend to handle the backend. From the
+              technical side, we did finish the basic functionality, we launched
+              the app and let our team, CEO, and operation team to validate the
+              idea. It does not go well so we decided to stop working on this
+              project. One year for my first start-up.
             </li>
           </ul>
         ),
-        techStack: "Flash ActionScript 3, HTML 5, Unity 3D C#",
       })}
 
       {renderWorkExperience({
@@ -187,7 +200,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
         techStack:
-          "Javascript (ES6), ReactJs, React Native, Redux, Router, Webpack, Git, GitLab, Webstorm, Enzyme, Code coverage and Linter",
+          "Javascript (ES6), ReactJs, React Native, React Native for Web, GraphQL, Redux, Router, Webpack, Git, GitLab, Webstorm, Enzyme, Code coverage, Linter, Sketch and Zeplin.",
       })}
 
       {renderWorkExperience({
@@ -215,7 +228,8 @@ const WorkExperience: React.FC = () => {
             </ul>
           </>
         ),
-        techStack: "React Native (Android only), Restful API",
+        techStack:
+          "React Native (Android only), Restful API, Sketch, and Zeplin.",
       })}
 
       {renderWorkExperience({
@@ -232,7 +246,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
         techStack:
-          "React Native, Restful API, Google Maps (Maps, Directions and Geocoding API), Background tracking GPS location, Stripe (payment with a credit card), Firebase Cloud Messaging",
+          "React Native, Restful API, Google Maps (Maps, Directions and Geocoding API), Background tracking GPS location, Stripe (payment with a credit card), Firebase Cloud Messaging, and Sketch.",
       })}
 
       {renderWorkExperience({
@@ -260,7 +274,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
         techStack:
-          "React Native, Expo, GraphQL, Google Geocoding API, Google Place Autocomplete API, Google Place Detail API",
+          "React Native, Expo, GraphQL, Google Geocoding API, Google Place Autocomplete API, Google Place Detail API, Sketch, and Zeplin.",
       })}
 
       {renderWorkExperience({
@@ -278,7 +292,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
         techStack:
-          "Typescript, React, Responsive UI, React Apollo with Restful API",
+          "Typescript, React, Responsive UI, React Apollo with Restful API, Sketch, and Zeplin.",
       })}
 
       {renderWorkExperience({
