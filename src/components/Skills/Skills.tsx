@@ -222,11 +222,19 @@ const Skills: React.FC = () => {
         React, React Native, NodeJS, and Firebase with Javascript or Typescript
       </h1>
       <p className="body">
-        I use them along with: - GraphQL to handle API requests or local state -
-        Redux to manage state - Jest to test the component's functionality. -
-        Cypress for end-to-end testing - Material UI for UI controls - Bitrise
-        for Continuous Integration/Continuous Delivery I use React to build
-        websites. I use React Native to build mobile apps for Android and iOS.
+        I use them along with:
+        <ul>
+          <li>GraphQL to handle API requests or local state</li>
+
+          <li>
+            Redux to manage state - Jest to test the component's functionality.
+          </li>
+          <li>Cypress for end-to-end testing</li>
+          <li>Material UI for UI controls</li>
+          <li>Bitrise for Continuous Integration/Continuous Delivery</li>
+        </ul>
+        I use React to build websites. I use React Native to build mobile apps
+        for Android and iOS.
       </p>
 
       <h1>Flutter</h1>
