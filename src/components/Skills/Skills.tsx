@@ -196,12 +196,7 @@ const Skills: React.FC = () => {
         ))}
       </div>
 
-      <h1>
-        Flash ActionScript 3{" "}
-        <span role="img" aria-label="five stars">
-          ⭐️⭐️⭐️⭐️⭐️
-        </span>
-      </h1>
+      <h1>Flash ActionScript 3</h1>
       <p className="body">
         Moving from ActionScript 3 to Javascript, I feel that ActionScript 3 is
         like Typescript for Javascript today. Which I can use class, interface,
@@ -216,10 +211,7 @@ const Skills: React.FC = () => {
       </p>
 
       <h1>
-        React, React Native, NodeJS, and Firebase with Javascript or Typescript{" "}
-        <span role="img" aria-label="four stars">
-          ⭐️⭐️⭐️⭐️
-        </span>
+        React, React Native, NodeJS, and Firebase with Javascript or Typescript
       </h1>
       <p className="body">
         I use them along with: - GraphQL to handle API requests or local state -
@@ -229,12 +221,7 @@ const Skills: React.FC = () => {
         websites. I use React Native to build mobile apps for Android and iOS.
       </p>
 
-      <h1>
-        Flutter{" "}
-        <span role="img" aria-label="three stars">
-          ⭐️⭐️⭐️
-        </span>
-      </h1>
+      <h1>Flutter</h1>
       <p className="body">
         Flutter is my favorite framework SDK at the moment, which helps to build
         UI consistently on Android and iOS. And with a statically typed
@@ -244,12 +231,7 @@ const Skills: React.FC = () => {
         the result, faster, less error-prone, and smaller file size.
       </p>
 
-      <h1>
-        Swift{" "}
-        <span role="img" aria-label="two stars">
-          ⭐️⭐️
-        </span>
-      </h1>
+      <h1>Swift</h1>
       <p className="body">
         With the syntax familiar to Javascript / Typescript, learning Swift is
         faster than I think. I can use Swift to build an iOS native app with
