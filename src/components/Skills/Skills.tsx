@@ -257,8 +257,8 @@ const Skills: React.FC = () => {
         2019, SwiftUI published. I see it very familiar to React and Flutter,
         which uses a single method for rendering the UI and local state to
         handle the UI logic. It even has the store concept to dispatch changes
-        to lister, like Redux in React Native and Provider in Flutter. I am
-        starting using SwiftUI to use it for native iOS, macOS projects.
+        to listeners, like Redux in React Native and Provider in Flutter. I am
+        starting using SwiftUI to build native iOS and macOS apps.
       </p>
     </>
   );
