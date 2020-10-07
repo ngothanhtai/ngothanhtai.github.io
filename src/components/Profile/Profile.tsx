@@ -15,7 +15,7 @@ const Profile = () => {
             height={100}
           />
           <Spacer width={12} />
-          <div className="flex flexColumn aiCenter jcCenter">
+          <div className="flex flexColumn jcCenter">
             <p className="title">
               Walter
               <br />
