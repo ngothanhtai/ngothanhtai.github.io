@@ -3,6 +3,7 @@ img.grayscale {
   width: 50px;
   height: 44px;
   object-fit: contain;
+  transition: border 0.25s ease-in-out;
 }
 
 img:hover.grayscale {

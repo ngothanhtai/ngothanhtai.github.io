@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 import "./TableOfContents.css";
 
 const tableOfContentItems = [
@@ -51,20 +52,21 @@ const tableOfContentItems = [
 ];
 const TableOfContents: React.FC = () => {
   return (
-    <ul className="tableOfContents">
+    <div className="flex tableOfContents">
       {tableOfContentItems.map(({ hashUrl, icon, title }) => (
-        <li key={hashUrl}>
-          <a
-            href={`#${hashUrl}`}
-            className="textDecorationNone highlightOnHover"
-          >
-            <span role="img" aria-label={title}>
-              {icon} {title}
-            </span>
-          </a>
-        </li>
+        <a
+          key={hashUrl}
+          href={`#${hashUrl}`}
+          className="flex flexColumn aiCenter jcCenter textDecorationNone highlightOnHover"
+        >
+          <span role="img" aria-label={title}>
+            {icon}
+          </span>
+          <Spacer height={12} />
+          <div>{title}</div>
+        </a>
       ))}
-    </ul>
+    </div>
   );
 };
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 
 const Summary: React.FC = () => {
   return (
@@ -9,12 +10,11 @@ const Summary: React.FC = () => {
         href={`#${HashUrl.summary}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Summary">
-            📃 Summary
-          </span>
-        </h1>
+        <span role="img" aria-label="Summary" className="title fw500">
+          📃 Summary
+        </span>
       </a>
+      <Spacer height={12} />
       <div>
         <p className="body">
           I'm a software engineer based in Vietnam with eight years of

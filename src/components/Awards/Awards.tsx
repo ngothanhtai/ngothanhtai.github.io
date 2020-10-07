@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 
 const Awards: React.FC = () => {
   return (
@@ -9,26 +10,34 @@ const Awards: React.FC = () => {
         href={`#${HashUrl.awards}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Awards">
-            🏆 Awards
-          </span>
-        </h1>
+        <span role="img" aria-label="Awards" className="title fw500">
+          🏆 Awards
+        </span>
       </a>
       <ul>
         <li>
-          <h3>1st Winner of Jenius Hackathon</h3>
+          <p className="subtitle fw500">1st Winner of Jenius Hackathon</p>
           <ul className="description">
-            <li>Time: July 2017</li>
-            <li>Location: Jakarta, Indonesia</li>
+            <li>
+              <b>Time</b>: July 2017
+            </li>
+            <li>
+              <b>Location</b>: Jakarta, Indonesia
+            </li>
           </ul>
         </li>
 
+        <Spacer height={12} />
+
         <li>
-          <h3>1st Winner of Coderschool demo day</h3>
+          <p className="subtitle fw500">1st Winner of Coderschool demo day</p>
           <ul className="description">
-            <li>Time: January 2016</li>
-            <li>Location: Ho Chi Minh City, Vietnam</li>
+            <li>
+              <b>Time</b>: January 2016
+            </li>
+            <li>
+              <b>Location</b>: Ho Chi Minh City, Vietnam
+            </li>
           </ul>
         </li>
       </ul>

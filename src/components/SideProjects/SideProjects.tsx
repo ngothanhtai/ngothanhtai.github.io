@@ -88,19 +88,18 @@ const SideProjects: React.FC = () => {
         href={`#${HashUrl.sideProjects}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Side Projects">
-            🪓 Side Projects
-          </span>
-        </h1>
+        <span role="img" aria-label="Side Projects" className="title fw500">
+          🪓 Side Projects
+        </span>
       </a>
 
-      <h3>
-        <span role="img" aria-label="Mobile apps">
-          📱
-        </span>{" "}
-        Mobile apps
-      </h3>
+      <Spacer height={12} />
+
+      <span role="img" aria-label="Mobile apps" className="subtitle fw500">
+        📱 Mobile apps
+      </span>
+      <Spacer height={12} />
+
       {sideProjectsMobileApps.map((data, index) => {
         return (
           <React.Fragment key={data.name}>
@@ -112,12 +111,13 @@ const SideProjects: React.FC = () => {
         );
       })}
 
-      <h3>
-        <span role="img" aria-label="macOS apps">
-          🖥
-        </span>{" "}
-        macOS apps
-      </h3>
+      <Spacer height={24} />
+
+      <span role="img" aria-label="macOS apps" className="subtitle fw500">
+        🖥 macOS apps
+      </span>
+
+      <Spacer height={12} />
       {sideProjectsMacApps.map((data, index) => {
         return (
           <React.Fragment key={data.name}>
@@ -129,7 +129,12 @@ const SideProjects: React.FC = () => {
         );
       })}
 
-      <h3>🗂 Open source</h3>
+      <Spacer height={24} />
+
+      <span role="img" aria-label="Open source" className="subtitle fw500">
+        🗂 Open source
+      </span>
+      <Spacer height={12} />
       {sideProjectsOpenSource.map((data, index) => {
         return (
           <React.Fragment key={data.name}>

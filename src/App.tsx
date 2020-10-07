@@ -17,6 +17,9 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <Profile />
+
+      <Spacer height={24} />
+
       <TableOfContents />
 
       <Spacer height={24} />
@@ -37,11 +40,11 @@ const App: React.FC = () => {
 
       <Spacer height={24} />
 
-      <Languages />
+      <Education />
 
       <Spacer height={24} />
 
-      <Publication />
+      <Languages />
 
       <Spacer height={24} />
 
@@ -49,7 +52,7 @@ const App: React.FC = () => {
 
       <Spacer height={24} />
 
-      <Education />
+      <Publication />
 
       <Spacer height={24} />
 

@@ -10,19 +10,17 @@ const Education: React.FC = () => {
         href={`#${HashUrl.education}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Education">
-            📚 Education
-          </span>
-        </h1>
+        <span role="img" aria-label="Education" className="title fw500">
+          📚 Education
+        </span>
       </a>
       <ul>
-        <li className="description">
+        <li className="subtitle">
           2008 - 2010: APTECH High Diploma Certificated Computer Professional
         </li>
 
         <Spacer height={12} />
-        <li className="description">
+        <li className="subtitle">
           2015 - 2016: CoderSchool - iOS Swift Saigon Bootcamp
         </li>
       </ul>

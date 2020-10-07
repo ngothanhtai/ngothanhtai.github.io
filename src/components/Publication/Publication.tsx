@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 
 const Publication: React.FC = () => {
   return (
@@ -9,21 +10,27 @@ const Publication: React.FC = () => {
         href={`#${HashUrl.publication}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Publication">
-            📜 Publication
-          </span>
-        </h1>
+        <span role="img" aria-label="Publication" className="title fw500">
+          📜 Publication
+        </span>
       </a>
       <ul>
         <li>
-          <a href="https://taimienphi.vn/download-walter-s-currency-converter-84774">
+          <a
+            href="https://taimienphi.vn/download-walter-s-currency-converter-84774"
+            className="subtitle"
+          >
             Walter's Currency Converter
           </a>
         </li>
 
+        <Spacer height={12} />
+
         <li>
-          <p>Youtube Subtitle published on e-Chip on 1 February 2020</p>
+          <p className="subtitle">
+            Youtube Subtitle published on e-Chip on 1 February 2020
+          </p>
+          <Spacer height={6} />
           <ul className="description">
             <li>
               Youtube Subtitle runs on Windows. It helps to insert subtitles

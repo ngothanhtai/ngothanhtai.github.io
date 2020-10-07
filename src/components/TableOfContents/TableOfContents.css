@@ -1,7 +1,8 @@
-ul.tableOfContents {
-  list-style: none;
+.tableOfContents {
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-ul.tableOfContents > li {
+.tableOfContents > div {
   margin: 12px 0;
 }

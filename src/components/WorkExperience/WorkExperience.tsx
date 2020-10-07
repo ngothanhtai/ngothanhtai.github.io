@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 
 const renderWorkExperience = ({
   title,
@@ -16,7 +17,8 @@ const renderWorkExperience = ({
 }): React.ReactNode => {
   return (
     <>
-      <h2>{title}</h2>
+      <div className="subtitle fw500">{title}</div>
+      <Spacer height={12} />
       <div>
         <p>
           <b>Time:</b>&nbsp;
@@ -55,12 +57,13 @@ const WorkExperience: React.FC = () => {
         href={`#${HashUrl.workExperience}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Work Experience">
-            💼 Work Experience
-          </span>
-        </h1>
+        <span role="img" aria-label="Work Experience" className="title fw500">
+          💼 Work Experience
+        </span>
       </a>
+
+      <Spacer height={12} />
+
       {renderWorkExperience({
         title: "Flash Game Developer at KingCorp",
         time: "March 2011 to March 2012",
@@ -76,6 +79,8 @@ const WorkExperience: React.FC = () => {
         ),
         techStack: "Flash Actionscript 3, C# and MSSQL",
       })}
+
+      <Spacer height={24} />
 
       {renderWorkExperience({
         title: "Team Leader Game Developer at Bạch Tuộc Số",
@@ -94,6 +99,8 @@ const WorkExperience: React.FC = () => {
         ),
         techStack: "Flash Actionscript 3, Java and MSSQL",
       })}
+
+      <Spacer height={24} />
 
       {renderWorkExperience({
         title:
@@ -120,6 +127,8 @@ const WorkExperience: React.FC = () => {
         ),
         techStack: "Flash ActionScript 3, HTML 5, Unity 3D C#, and Photoshop.",
       })}
+
+      <Spacer height={24} />
 
       {renderWorkExperience({
         title: "Change career path from Game developer to Mobile developer",
@@ -157,6 +166,8 @@ const WorkExperience: React.FC = () => {
           </ul>
         ),
       })}
+
+      <Spacer height={24} />
 
       {renderWorkExperience({
         title: "Contract React Native at PYCOGroup",
@@ -203,6 +214,8 @@ const WorkExperience: React.FC = () => {
           "Javascript (ES6), ReactJs, React Native, React Native for Web, GraphQL, Redux, Router, Webpack, Git, GitLab, Webstorm, Enzyme, Code coverage, Linter, Sketch and Zeplin.",
       })}
 
+      <Spacer height={24} />
+
       {renderWorkExperience({
         title: "Contract React Native at PYCOGroup",
         time: "March 2018 to April 2018",
@@ -232,6 +245,8 @@ const WorkExperience: React.FC = () => {
           "React Native (Android only), Restful API, Sketch, and Zeplin.",
       })}
 
+      <Spacer height={24} />
+
       {renderWorkExperience({
         title: "Senior React Native at Olivery",
         time: "June 2018 to September 2018",
@@ -249,6 +264,8 @@ const WorkExperience: React.FC = () => {
           "React Native, Restful API, Google Maps (Maps, Directions and Geocoding API), Background tracking GPS location, Stripe (payment with a credit card), Firebase Cloud Messaging, and Sketch.",
       })}
 
+      <Spacer height={24} />
+
       {renderWorkExperience({
         title: "Freelance React Native at LOGIVAN (https://www.logivan.com)",
         time: "August 2018 to September 2018",
@@ -263,6 +280,8 @@ const WorkExperience: React.FC = () => {
           "React Native, Restful API, Facebook Account Kit, OneSignal, and Firebase",
       })}
 
+      <Spacer height={24} />
+
       {renderWorkExperience({
         title: "Contract React Native at PYCOGroup",
         time: "1-month project - September 2018",
@@ -276,6 +295,8 @@ const WorkExperience: React.FC = () => {
         techStack:
           "React Native, Expo, GraphQL, Google Geocoding API, Google Place Autocomplete API, Google Place Detail API, Sketch, and Zeplin.",
       })}
+
+      <Spacer height={24} />
 
       {renderWorkExperience({
         title: "Contract ReactJS at PYCOGroup",
@@ -295,12 +316,15 @@ const WorkExperience: React.FC = () => {
           "Typescript, React, Responsive UI, React Apollo with Restful API, Sketch, and Zeplin.",
       })}
 
+      <Spacer height={24} />
+
       {renderWorkExperience({
         title:
           "Contract React Native + ReactJS at ORKESTRO (https://orkestro.com)",
         time: "March 2019 to October 2019",
         location: "Da lat city, Vietnam",
       })}
+      <Spacer height={12} />
       {renderWorkExperience({
         title: "Fulltime React Native + ReactJS at ORKESTRO",
         time: "November 2019 to February 2020",

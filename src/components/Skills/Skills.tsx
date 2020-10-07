@@ -178,14 +178,16 @@ const Skills: React.FC = () => {
         href={`#${HashUrl.skills}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Skills">
-            🛠 Skills
-          </span>
-        </h1>
+        <span role="img" aria-label="Skills" className="title fw500">
+          🛠 Skills
+        </span>
       </a>
-      <h2>Programming languages, Librarires and Tools</h2>
-      <h3>I used before:</h3>
+      <Spacer height={12} />
+      <div className="subtitle">
+        Programming languages, Librarires and Tools
+      </div>
+      <Spacer height={12} />
+      <div className="body">I used before:</div>
       <div className="flex flexRow flexWrap">
         {beforeTechStack.map((item, index) => (
           <React.Fragment key={item.imageAlt}>
@@ -194,7 +196,8 @@ const Skills: React.FC = () => {
           </React.Fragment>
         ))}
       </div>
-      <h3>I am using:</h3>
+      <Spacer height={12} />
+      <div className="body">I am using:</div>
       <div className="flex flexRow flexWrap">
         {usingTechStack.map((item, index) => (
           <React.Fragment key={item.imageAlt}>
@@ -203,8 +206,10 @@ const Skills: React.FC = () => {
           </React.Fragment>
         ))}
       </div>
+      <Spacer height={24} />
 
-      <h1>Flash ActionScript 3</h1>
+      <div className="subtitle fw500">Flash ActionScript 3</div>
+      <Spacer height={12} />
       <p className="body">
         Moving from ActionScript 3 to Javascript, I feel that ActionScript 3 is
         like Typescript for Javascript today. Which I can use class, interface,
@@ -218,9 +223,12 @@ const Skills: React.FC = () => {
         .
       </p>
 
-      <h1>
+      <Spacer height={24} />
+
+      <div className="subtitle fw500">
         React, React Native, NodeJS, and Firebase with Javascript or Typescript
-      </h1>
+      </div>
+      <Spacer height={12} />
       <p className="body">
         I use them along with:
         <ul>
@@ -237,7 +245,10 @@ const Skills: React.FC = () => {
         for Android and iOS.
       </p>
 
-      <h1>Flutter</h1>
+      <Spacer height={24} />
+
+      <div className="subtitle fw500">Flutter</div>
+      <Spacer height={12} />
       <p className="body">
         Flutter is my favorite framework SDK at the moment, which helps to build
         UI consistently on Android and iOS. And with a statically typed
@@ -247,7 +258,10 @@ const Skills: React.FC = () => {
         the result, faster, less error-prone, and smaller file size.
       </p>
 
-      <h1>Swift</h1>
+      <Spacer height={24} />
+
+      <div className="subtitle fw500">Swift</div>
+      <Spacer height={12} />
       <p className="body">
         With the syntax familiar to Javascript / Typescript, learning Swift is
         faster than I think. I can use Swift to build an iOS native app with

@@ -1,5 +1,6 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
+import { Spacer } from "../Spacer/Spacer";
 
 const VolunteerExperience: React.FC = () => {
   return (
@@ -9,23 +10,26 @@ const VolunteerExperience: React.FC = () => {
         href={`#${HashUrl.volunteerExperience}`}
         className="textDecorationNone"
       >
-        <h1>
-          <span role="img" aria-label="Volunteer Experience">
-            ✋ Volunteer Experience
-          </span>
-        </h1>
+        <span
+          role="img"
+          aria-label="Volunteer Experience"
+          className="title fw500"
+        >
+          ✋ Volunteer Experience
+        </span>
       </a>
       <ul>
         <li>
-          <h3>Barcamp Saigon</h3>
+          <p className="subtitle fw500">Barcamp Saigon</p>
           <ul className="description">
             <li>Role: Board team</li>
             <li>Time: November 2015</li>
             <li>Location: RMIT University</li>
           </ul>
         </li>
+        <Spacer height={12} />
         <li>
-          <h3>Coderschool Learning Class</h3>
+          <p className="subtitle fw500">Coderschool Learning Class</p>
           <ul className="description">
             <li>Role: Teacher Assistant for React Native class</li>
             <li>Time: March 2017 to April 2017</li>
