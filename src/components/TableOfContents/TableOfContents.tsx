@@ -1,6 +1,5 @@
 import React from "react";
 import { HashUrl } from "../../utils/constants";
-import { Spacer } from "../Spacer/Spacer";
 import "./TableOfContents.css";
 
 const tableOfContentItems = [
@@ -57,13 +56,13 @@ const TableOfContents: React.FC = () => {
         <a
           key={hashUrl}
           href={`#${hashUrl}`}
-          className="flex flexColumn aiCenter jcCenter textDecorationNone highlightOnHover"
+          className="flex aiCenter jcCenter textDecorationNone highlightOnHover"
         >
           <span role="img" aria-label={title}>
             {icon}
           </span>
-          <Spacer height={12} />
-          <div>{title}</div>
+
+          <span>{title}</span>
         </a>
       ))}
     </div>

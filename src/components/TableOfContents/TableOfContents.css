@@ -1,8 +1,29 @@
-.tableOfContents {
-  flex-direction: row;
-  justify-content: space-evenly;
+@media (min-width: 900px) {
+  .tableOfContents {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .tableOfContents a {
+    flex-direction: column;
+  }
+
+  .tableOfContents a > span:first-child {
+    margin-bottom: 12px;
+  }
 }
 
-.tableOfContents > div {
-  margin: 12px 0;
+@media (max-width: 900px) {
+  .tableOfContents {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tableOfContents a {
+    flex-direction: row;
+  }
+
+  .tableOfContents a > span:first-child {
+    margin-right: 6px;
+  }
 }
