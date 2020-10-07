@@ -15,22 +15,22 @@ const Languages: React.FC = () => {
           </span>
         </h1>
       </a>
-      <h2>
+      <h4>
         <span role="img" aria-label="English">
           🇬🇧 English: Intermediate
         </span>
-      </h2>
+      </h4>
       <p>
         - IELTS Certificate with band score: <b>5.5</b>
       </p>
 
       <p>(Listening: 6.5, Reading: 5, Writing: 6, Speaking: 5)</p>
 
-      <h2>
+      <h4>
         <span role="img" aria-label="Vietnamese">
           🇻🇳 Vietnamese: Native language
         </span>
-      </h2>
+      </h4>
     </>
   );
 };

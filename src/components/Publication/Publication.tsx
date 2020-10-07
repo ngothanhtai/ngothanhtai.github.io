@@ -24,7 +24,7 @@ const Publication: React.FC = () => {
 
         <li>
           <p>Youtube Subtitle published on e-Chip on 1 February 2020</p>
-          <ul>
+          <ul className="description">
             <li>
               Youtube Subtitle runs on Windows. It helps to insert subtitles
               based on video time and export to a text file (.srt), then it will

@@ -17,16 +17,16 @@ const Awards: React.FC = () => {
       </a>
       <ul>
         <li>
-          <p>1st Winner of Jenius Hackathon</p>
-          <ul>
+          <h3>1st Winner of Jenius Hackathon</h3>
+          <ul className="description">
             <li>Time: July 2017</li>
             <li>Location: Jakarta, Indonesia</li>
           </ul>
         </li>
 
         <li>
-          <p>1st Winner of Coderschool demo day</p>
-          <ul>
+          <h3>1st Winner of Coderschool demo day</h3>
+          <ul className="description">
             <li>Time: January 2016</li>
             <li>Location: Ho Chi Minh City, Vietnam</li>
           </ul>

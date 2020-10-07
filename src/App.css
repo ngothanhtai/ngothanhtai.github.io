@@ -38,14 +38,46 @@
   justify-content: space-between;
 }
 
-.app {
-  background-color: #2e3337;
-  color: white;
-  padding: 24px;
+.highlightOnHover {
+  border-radius: 8px;
+  padding: 8px 8px;
+  box-sizing: border-box;
+  transition: background-color ease-in-out 0.5s;
+}
+
+@media (prefers-color-scheme: light) {
+  .app {
+    background-color: white;
+    color: #2e3337;
+    padding: 24px;
+  }
+
+  a {
+    color: #2e3337;
+  }
+
+  :hover.highlightOnHover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .app {
+    background-color: #2e3337;
+    color: white;
+    padding: 24px;
+  }
+
+  a {
+    color: white;
+  }
+
+  :hover.highlightOnHover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 a {
-  color: white;
   text-decoration: none;
   font-size: 14px;
 }
@@ -70,17 +102,6 @@ a:hover {
   visibility: hidden;
 }
 
-.highlightOnHover {
-  border-radius: 8px;
-  padding: 8px 8px;
-  box-sizing: border-box;
-  transition: background-color ease-in-out 0.5s;
-}
-
-:hover.highlightOnHover {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .relative {
   position: relative;
 }
@@ -91,12 +112,16 @@ a:hover {
 
 .body {
   font-size: 20px;
-  word-spacing: 3px;
+  word-spacing: 2px;
   line-height: 30px;
+  font-weight: 400;
 }
 
 .description {
   font-size: 14px;
+  word-spacing: 2px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .fw500 {

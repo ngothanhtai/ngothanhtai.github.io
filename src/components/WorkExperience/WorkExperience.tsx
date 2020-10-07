@@ -20,26 +20,26 @@ const renderWorkExperience = ({
       <div>
         <p>
           <b>Time:</b>&nbsp;
-          <span>{time}</span>
+          <span className="description">{time}</span>
         </p>
         {location && (
           <p>
             <b>Location:</b>&nbsp;
-            <span>{location}</span>
+            <span className="description">{location}</span>
           </p>
         )}
 
         {techStack && (
           <p>
             <b>Tech:</b>&nbsp;
-            <span>{techStack}</span>
+            <span className="description">{techStack}</span>
           </p>
         )}
 
         {description && (
           <div>
             <b>What did I do</b>:&nbsp;
-            {description}
+            <div className="description">{description}</div>
           </div>
         )}
       </div>

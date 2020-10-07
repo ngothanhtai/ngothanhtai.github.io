@@ -73,7 +73,6 @@ const ContactInformation: React.FC = () => {
           <Spacer width={6} />
           <div>
             <div className="label">Vietnam</div>
-            <div className="label">(I can relocate for work)</div>
           </div>
         </div>
       </Press>
