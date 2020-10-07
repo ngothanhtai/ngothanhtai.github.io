@@ -229,7 +229,7 @@ const Skills: React.FC = () => {
         React, React Native, NodeJS, and Firebase with Javascript or Typescript
       </div>
       <Spacer height={12} />
-      <p className="body">
+      <div className="body">
         I use them along with:
         <ul>
           <li>GraphQL to handle API requests or local state</li>
@@ -243,7 +243,7 @@ const Skills: React.FC = () => {
         </ul>
         I use React to build websites. I use React Native to build mobile apps
         for Android and iOS.
-      </p>
+      </div>
 
       <Spacer height={24} />
 
