@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "npm run build && firebase deploy"
+    "release": "npm run build && firebase deploy",
+    "postbuild": "rm -rf ./docs && cp -a ./build ./docs"
   },
   "eslintConfig": {
     "extends": "react-app"
