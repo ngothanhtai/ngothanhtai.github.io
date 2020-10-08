@@ -37,12 +37,8 @@ const DisplayConnectedWifiName: React.FC = () => {
       <Spacer height={24} />
 
       <Press
-        onPress={() =>
-          window.open(
-            "https://apps.apple.com/vn/app/display-connected-wifi-name/id1526918434?mt=12",
-            "_blank"
-          )
-        }
+        url="https://apps.apple.com/vn/app/display-connected-wifi-name/id1526918434?mt=12"
+        onPress={(url) => window.open(url, "_blank")}
       >
         <img
           className="hidden fadeIn3"

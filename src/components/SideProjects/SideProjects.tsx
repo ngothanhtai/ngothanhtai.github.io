@@ -13,6 +13,7 @@ const sideProjectsMobileApps = [
   {
     publishDate: "12 October 2018",
     name: "Walter's Currency Converter",
+    url: "https://walterscc.web.app",
     content: <WaltersCurrencyConverter />,
     anchorHash: "walters-currency-converter",
     icon: Images.sideProjects.walterscc,
@@ -20,6 +21,7 @@ const sideProjectsMobileApps = [
   {
     publishDate: "7 December 2019",
     name: "what the FOOD",
+    url: "https://onelink.to/3gq6hx",
     content: <WhatTheFOOD />,
     anchorHash: "what-the-FOOD",
     icon: Images.sideProjects.whatTheFOOD,
@@ -27,6 +29,7 @@ const sideProjectsMobileApps = [
   {
     publishDate: "13 June 2020",
     name: "My Gay Life (MGL) - Gay chat",
+    url: "https://mgl419.com",
     content: <MGL />,
     anchorHash: "mgl",
     icon: Images.sideProjects.mgl,
@@ -37,6 +40,7 @@ const sideProjectsMacApps = [
   {
     publishDate: "12 October 2018",
     name: "Walter's Currency Converter",
+    url: "https://walterscc.web.app",
     content: <WaltersCurrencyConverter />,
     anchorHash: "walters-currency-converter-for-mac",
     icon: Images.sideProjects.walterscc,
@@ -44,6 +48,8 @@ const sideProjectsMacApps = [
   {
     publishDate: "18 August 2020",
     name: "Display connected Wifi name",
+    url:
+      "https://apps.apple.com/vn/app/display-connected-wifi-name/id1526918434?mt=12",
     content: <DisplayConnectedWifiName />,
     anchorHash: "display-connected-wifi-name",
     icon: Images.sideProjects.displayConnectedWifiName,
@@ -51,6 +57,8 @@ const sideProjectsMacApps = [
   {
     publishDate: "21 September 2020",
     name: "Safari extension: Scroll to the top of the page",
+    url:
+      "https://apps.apple.com/vn/app/scroll-to-the-top-of-the-page/id1532648692?mt=12",
     content: <ScrollToTop />,
     anchorHash: "scroll-to-top",
     icon: Images.sideProjects.scrollToTop,
@@ -62,11 +70,9 @@ const sideProjectsOpenSource = [
     publishDate: "3 April 2017",
     name: "react-native-auto-typing-text",
     anchorHash: "react-native-auto-typing-text",
-    onPress: () => {
-      window.open(
-        "https://github.com/ngothanhtai/react-native-auto-typing-text",
-        "_blank"
-      );
+    url: "https://github.com/ngothanhtai/react-native-auto-typing-text",
+    onPress: (url: string) => {
+      window.open(url, "_blank");
     },
   },
 
@@ -74,8 +80,9 @@ const sideProjectsOpenSource = [
     publishDate: "1 March 2020",
     name: "platform_utils",
     anchorHash: "platform_utils",
-    onPress: () => {
-      window.open("https://pub.dev/packages/platform_utils", "_blank");
+    url: "https://pub.dev/packages/platform_utils",
+    onPress: (url: string) => {
+      window.open(url, "_blank");
     },
   },
 ];

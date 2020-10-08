@@ -23,12 +23,8 @@ const WaltersCurrencyConverter: React.FC = () => {
         <Spacer width={24} />
         <div className="flex flexColumn aiCenter jcCenter">
           <Press
-            onPress={() =>
-              window.open(
-                "https://apps.apple.com/us/app/id1438605135",
-                "_blank"
-              )
-            }
+            url="https://apps.apple.com/us/app/id1438605135"
+            onPress={(url) => window.open(url, "_blank")}
           >
             <img
               className="hidden fadeIn3"
@@ -41,12 +37,8 @@ const WaltersCurrencyConverter: React.FC = () => {
           <Spacer height={6} />
 
           <Press
-            onPress={() =>
-              window.open(
-                "https://play.google.com/store/apps/details?id=com.walter.currencyconverter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-                "_blank"
-              )
-            }
+            url="https://play.google.com/store/apps/details?id=com.walter.currencyconverter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            onPress={(url) => window.open(url, "_blank")}
           >
             <img
               className="hidden fadeIn3"
@@ -59,12 +51,8 @@ const WaltersCurrencyConverter: React.FC = () => {
           <Spacer height={6} />
 
           <Press
-            onPress={() =>
-              window.open(
-                "https://apps.apple.com/us/app/walters-currency-converter/id1456511514",
-                "_blank"
-              )
-            }
+            url="https://apps.apple.com/us/app/walters-currency-converter/id1456511514"
+            onPress={(url) => window.open(url, "_blank")}
           >
             <img
               className="hidden fadeIn3"

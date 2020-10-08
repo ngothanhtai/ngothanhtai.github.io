@@ -6,7 +6,7 @@ import { Tooltip } from "../Tooltip/Tooltip";
 type Props = {
   imageSource: string;
   imageAlt: string;
-  website?: string;
+  website: string;
 };
 
 const ImageWithTooltip: React.FC<Props> = ({
@@ -14,12 +14,12 @@ const ImageWithTooltip: React.FC<Props> = ({
   imageAlt,
   website,
 }) => {
-  const onPress = React.useCallback(() => {
-    window.open(website, "_blank");
-  }, [website]);
+  const onPress = React.useCallback((url) => {
+    window.open(url, "_blank");
+  }, []);
 
   return (
-    <Press onPress={onPress}>
+    <Press url={website} onPress={onPress}>
       <Tooltip text={imageAlt}>
         <img
           className="grayscale highlightOnHover"

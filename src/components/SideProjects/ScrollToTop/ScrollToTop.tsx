@@ -24,12 +24,8 @@ const ScrollToTop: React.FC = () => {
       <Spacer height={24} />
 
       <Press
-        onPress={() =>
-          window.open(
-            "https://apps.apple.com/vn/app/scroll-to-the-top-of-the-page/id1532648692?mt=12",
-            "_blank"
-          )
-        }
+        url="https://apps.apple.com/vn/app/scroll-to-the-top-of-the-page/id1532648692?mt=12"
+        onPress={(url) => window.open(url, "_blank")}
       >
         <img
           className="hidden fadeIn3"

@@ -25,12 +25,8 @@ const WhatTheFOOD: React.FC = () => {
 
       <div className="flex flexColumn aiCenter jcCenter">
         <Press
-          onPress={() =>
-            window.open(
-              "https://apps.apple.com/us/app/what-the-food/id1490488926",
-              "_blank"
-            )
-          }
+          url="https://apps.apple.com/us/app/what-the-food/id1490488926"
+          onPress={(url) => window.open(url, "_blank")}
         >
           <img
             className="hidden fadeIn3"
@@ -43,12 +39,8 @@ const WhatTheFOOD: React.FC = () => {
         <Spacer height={6} />
 
         <Press
-          onPress={() =>
-            window.open(
-              "https://play.google.com/store/apps/details?id=com.walter.whatthefood",
-              "_blank"
-            )
-          }
+          url="https://play.google.com/store/apps/details?id=com.walter.whatthefood"
+          onPress={(url) => window.open(url, "_blank")}
         >
           <img
             className="hidden fadeIn3"

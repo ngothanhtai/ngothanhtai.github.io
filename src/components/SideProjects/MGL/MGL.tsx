@@ -22,12 +22,8 @@ const MGL: React.FC = () => {
         <Spacer width={24} />
         <div className="flex flexColumn aiCenter jcCenter">
           <Press
-            onPress={() =>
-              window.open(
-                "https://apps.apple.com/us/app/mgl-gay-chat/id1514743623",
-                "_blank"
-              )
-            }
+            url="https://apps.apple.com/us/app/mgl-gay-chat/id1514743623"
+            onPress={(url) => window.open(url, "_blank")}
           >
             <img
               className="hidden fadeIn3"
@@ -40,12 +36,8 @@ const MGL: React.FC = () => {
           <Spacer height={6} />
 
           <Press
-            onPress={() =>
-              window.open(
-                "https://play.google.com/store/apps/details?id=com.mgl&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-                "_blank"
-              )
-            }
+            url="https://play.google.com/store/apps/details?id=com.mgl&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            onPress={(url) => window.open(url, "_blank")}
           >
             <img
               className="hidden fadeIn3"

@@ -10,12 +10,13 @@ type Props = {
     content?: React.ReactNode;
     anchorHash: string;
     icon?: string;
-    onPress?(): void;
+    onPress?(url: string): void;
+    url: string;
   };
 };
 
 const SideProjectItem: React.FC<Props> = ({
-  data: { name, publishDate, content, anchorHash, icon, onPress },
+  data: { name, publishDate, content, anchorHash, icon, onPress, url },
 }) => {
   const [show, setShow] = React.useState(isMatchHashUrl(anchorHash));
 
@@ -36,10 +37,11 @@ const SideProjectItem: React.FC<Props> = ({
             <div className="flex flexRow aiCenter cursor-pointer">
               <Spacer width={6} />
               <Press
+                url={url}
                 pressDelay={250}
-                onPress={() => {
+                onPress={(url) => {
                   if (onPress != null) {
-                    return onPress();
+                    return onPress(url);
                   }
                   setShow(!show);
                 }}
