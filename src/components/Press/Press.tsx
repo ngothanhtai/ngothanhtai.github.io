@@ -32,7 +32,7 @@ const Press: React.FC<Props> = ({
       className="textDecorationNone"
       onClick={(e) => e.preventDefault()}
     >
-      <div onMouseUp={onMouseUp} className="cursor-pointer scalingBase">
+      <div onMouseUp={onMouseUp} className="cursorPointer scalingBase">
         {children}
       </div>
     </a>

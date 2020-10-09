@@ -2,6 +2,10 @@ const Images = {
   walter: require("./images/walter.jpeg"),
   linkedin: require("./images/linkedin.png"),
   github: require("./images/github.png"),
+  phone: {
+    src: require("./images/phone/iphone_hardware_portrait_large.png"),
+    srcSet: `${require("./images/phone/iphone_hardware_portrait_large_2x.png")} 2x`,
+  },
   techStackBefore: {
     games: {
       actionscript3: require("./images/techStackBefore/actionscript3.png"),
@@ -55,6 +59,7 @@ const Images = {
       macAppStore: require("./images/sideProjects/store-download-badges/mac-app-store.svg"),
     },
   },
+  replay: require("./images/replay.svg"),
 };
 
 export { Images };

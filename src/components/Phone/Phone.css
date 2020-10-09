@@ -1,0 +1,12 @@
+.phoneContainer {
+  position: relative;
+  width: 361px;
+  height: 710px;
+}
+
+.phoneVideo {
+  position: absolute;
+  top: 27px;
+  left: 29px;
+  width: 303px;
+}

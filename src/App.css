@@ -92,8 +92,12 @@ a:hover {
   font-size: 12px;
 }
 
-.cursor-pointer {
+.cursorPointer {
   cursor: pointer;
+}
+
+.cursorDefault {
+  cursor: default;
 }
 
 .visible {
@@ -106,6 +110,10 @@ a:hover {
 
 .relative {
   position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .title {

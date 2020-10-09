@@ -34,7 +34,7 @@ const SideProjectItem: React.FC<Props> = ({
       >
         <div>
           <div>
-            <div className="flex flexRow aiCenter cursor-pointer">
+            <div className="flex flexRow aiCenter cursorPointer">
               <Spacer width={6} />
               <Press
                 url={url}
