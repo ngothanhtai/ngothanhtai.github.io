@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="clip-replay">
+      <rect width="128" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="replay" clip-path="url(#clip-replay)">
+    <g id="replay-2" transform="translate(56.059 55)">
+      <path id="Path_1" data-name="Path 1" d="M62.627,120.2a59.029,59.029,0,0,1-41.438-17.162,5.095,5.095,0,0,1,7.205-7.205A48.411,48.411,0,1,0,62.627,13.191c-25.7,0-47.405,20.9-48.374,46.585a5.177,5.177,0,0,1-5.284,4.9,5.1,5.1,0,0,1-4.9-5.284C5.244,28.3,31.512,3,62.627,3a58.6,58.6,0,1,1,0,117.2Z" transform="translate(-49.287 -53.107)"/>
+      <path id="Path_3" data-name="Path 3" d="M16.092,36.7a5.1,5.1,0,0,1-4.459-2.624L2.584,17.772a5.1,5.1,0,1,1,8.908-4.948l6.578,11.853L29.922,18.1a5.1,5.1,0,0,1,4.943,8.912L18.559,36.06a5.034,5.034,0,0,1-2.466.642Z" transform="translate(-58 -23.612)"/>
+    </g>
+  </g>
+</svg>
