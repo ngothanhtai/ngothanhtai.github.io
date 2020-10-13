@@ -1,0 +1,37 @@
+.waltersccForMacGrid {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.waltersccForMacGridItem {
+  width: 100%;
+  grid-column-start: span 2;
+  grid-column-end: auto;
+  grid-row-start: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .waltersccForMacGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .waltersccForMacGridItem {
+    grid-row-start: span 2;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .waltersccForMacGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .waltersccForMacGridItem {
+    grid-row-start: span 1;
+  }
+}
+
+.waltersccGridMedia {
+  width: 100%;
+  border-radius: 6px;
+}

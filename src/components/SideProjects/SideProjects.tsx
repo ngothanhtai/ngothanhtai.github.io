@@ -7,6 +7,7 @@ import { MGL } from "./MGL/MGL";
 import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
 import { SideProjectItem } from "./SideProjectItem/SideProjectItem";
 import { WaltersCurrencyConverter } from "./WaltersCurrencyConverter/WaltersCurrencyConverter";
+import { WaltersCurrencyConverterForMac } from "./WaltersCurrencyConverterForMac/WaltersCurrencyConverterForMac";
 import { WhatTheFOOD } from "./WhatTheFOOD/WhatTheFOOD";
 
 const sideProjectsMobileApps = [
@@ -41,7 +42,7 @@ const sideProjectsMacApps = [
     publishDate: "12 October 2018",
     name: "Walter's Currency Converter",
     url: "https://walterscc.web.app",
-    content: <WaltersCurrencyConverter />,
+    content: <WaltersCurrencyConverterForMac />,
     anchorHash: "walters-currency-converter-for-mac",
     icon: Images.sideProjects.walterscc,
   },

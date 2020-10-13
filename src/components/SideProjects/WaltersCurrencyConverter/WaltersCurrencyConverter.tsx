@@ -12,7 +12,7 @@ type Props = {
   verticalLayout: boolean;
 };
 
-const Intro: React.FC = () => (
+const WaltersCCIntro: React.FC = () => (
   <>
     <div className="body">
       A currency converter utility which supports converting more than 160
@@ -25,7 +25,7 @@ const Intro: React.FC = () => (
   </>
 );
 
-const Download: React.FC<Props> = ({ verticalLayout }) => {
+const WaltersCCDownload: React.FC<Props> = ({ verticalLayout }) => {
   const storeImageSize = {
     width: verticalLayout ? 150 : undefined,
     height: !verticalLayout ? 60 : undefined,
@@ -81,7 +81,7 @@ const Download: React.FC<Props> = ({ verticalLayout }) => {
   );
 };
 
-const Contact: React.FC = () => (
+const WaltersCCContact: React.FC = () => (
   <div className="body textAlignCenter">
     Any ideas, improvements, or anything, you are welcome, please send it to{" "}
     <Press
@@ -116,8 +116,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
           <Spacer width={80} />
 
           <Phone
-            poster={Videos.changeCurrency.poster}
-            video={Videos.changeCurrency.video}
+            poster={Videos.walterscc.mobile.changeCurrency.poster}
+            video={Videos.walterscc.mobile.changeCurrency.video}
             scale={phoneScale}
           />
         </figure>
@@ -132,8 +132,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
           })}
         >
           <Phone
-            video={Videos.dragAndDropToChangeTheOrder.video}
-            poster={Videos.dragAndDropToChangeTheOrder.poster}
+            video={Videos.walterscc.mobile.dragAndDropToChangeTheOrder.video}
+            poster={Videos.walterscc.mobile.dragAndDropToChangeTheOrder.poster}
             scale={phoneScale}
           />
 
@@ -166,7 +166,12 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
 
           <Spacer width={80} />
 
-          <Phone video={Videos.changeTheme} loop scale={phoneScale} />
+          <Phone
+            video={Videos.walterscc.mobile.changeTheme.video}
+            poster={Videos.walterscc.mobile.changeTheme.poster}
+            loop
+            scale={phoneScale}
+          />
         </figure>
         <Spacer height={100} />
 
@@ -183,8 +188,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
             </figcaption>
             <Spacer height={12} />
             <Phone
-              video={Videos.pressAndHoldToCopy.video}
-              poster={Videos.pressAndHoldToCopy.poster}
+              video={Videos.walterscc.mobile.pressAndHoldToCopy.video}
+              poster={Videos.walterscc.mobile.pressAndHoldToCopy.poster}
               scale={phoneScale}
             />
           </figure>
@@ -207,8 +212,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
             </figcaption>
             <Spacer height={12} />
             <Phone
-              video={Videos.pressAndHoldToKeepDeleting.video}
-              poster={Videos.pressAndHoldToKeepDeleting.poster}
+              video={Videos.walterscc.mobile.pressAndHoldToKeepDeleting.video}
+              poster={Videos.walterscc.mobile.pressAndHoldToKeepDeleting.poster}
               scale={phoneScale}
             />
           </figure>
@@ -224,7 +229,7 @@ const WaltersCurrencyConverter: React.FC = () => {
 
   return (
     <div className="flex flexColumn flex1">
-      <Intro />
+      <WaltersCCIntro />
 
       <Spacer height={24} />
 
@@ -232,13 +237,18 @@ const WaltersCurrencyConverter: React.FC = () => {
 
       <Spacer height={24} />
 
-      <Download verticalLayout={verticalLayout} />
+      <WaltersCCDownload verticalLayout={verticalLayout} />
 
       <Spacer height={24} />
 
-      <Contact />
+      <WaltersCCContact />
     </div>
   );
 };
 
-export { WaltersCurrencyConverter };
+export {
+  WaltersCurrencyConverter,
+  WaltersCCIntro,
+  WaltersCCDownload,
+  WaltersCCContact,
+};

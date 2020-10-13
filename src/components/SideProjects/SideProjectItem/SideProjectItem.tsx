@@ -25,7 +25,7 @@ const SideProjectItem: React.FC<Props> = ({
   return (
     <>
       <a id={anchorHash} href={`#${anchorHash}`} className="textDecorationNone">
-        &nbsp;
+        {""}
       </a>
       <div
         className={classNames("sideProjectItem", { sideProjectItemOpen: show })}

@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import React from "react";
 import { Images } from "../../assets/images";
-import { Videos } from "../../assets/videos";
 import {
   isSmallScreen,
   useVisibility,
@@ -56,9 +55,6 @@ const Phone: React.FC<Props> = ({ video, loop = false, poster }) => {
     left: 29 * scale,
     width: 303 * scale,
   };
-
-  console.log({ ended, visible });
-
   return (
     <div className="flex flexColumn aiCenter">
       <div
@@ -69,7 +65,7 @@ const Phone: React.FC<Props> = ({ video, loop = false, poster }) => {
         }}
       >
         <img
-          src={Videos.changeCurrency.poster}
+          src={poster}
           alt="video poster"
           className="absolute"
           style={videoStyle}
