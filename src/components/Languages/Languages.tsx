@@ -4,36 +4,51 @@ import { Spacer } from "../Spacer/Spacer";
 
 const Languages: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.languages}
         href={`#${HashUrl.languages}`}
         className="textDecorationNone"
       >
-        <span role="img" aria-label="Languages" className="title fw500">
-          🗣 Languages
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Languages">
+            🗣
+          </span>{" "}
+          Languages
+        </div>
       </a>
-      <Spacer height={12} />
-      <span role="img" aria-label="English" className="subtitle fw500">
-        🇬🇧 English: Intermediate
-      </span>
-      <Spacer height={6} />
-      <p>
-        - IELTS Certificate with band score: <b>5.5</b>
-      </p>
-      <Spacer height={6} />
+      <ul>
+        <li>
+          <div className="subtitle fw500">
+            <span role="img" aria-label="English">
+              🇬🇧
+            </span>{" "}
+            English: Intermediate
+          </div>
 
-      <p className="label">
-        (Listening: 6.5, Reading: 5, Writing: 6, Speaking: 5)
-      </p>
+          <Spacer height={6} />
+          <p>
+            IELTS Certificate with band score: <b>5.5</b>
+          </p>
+          <Spacer height={6} />
 
-      <Spacer height={12} />
+          <p className="label">
+            (Listening: 6.5, Reading: 5, Writing: 6, Speaking: 5)
+          </p>
+        </li>
 
-      <span role="img" aria-label="Vietnamese" className="subtitle fw500">
-        🇻🇳 Vietnamese: Native language
-      </span>
-    </>
+        <Spacer height={12} />
+
+        <li>
+          <div className="subtitle fw500">
+            <span role="img" aria-label="Vietnamese">
+              🇻🇳
+            </span>{" "}
+            Vietnamese: Native language
+          </div>
+        </li>
+      </ul>
+    </section>
   );
 };
 

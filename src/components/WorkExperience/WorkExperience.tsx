@@ -51,15 +51,18 @@ const renderWorkExperience = ({
 
 const WorkExperience: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.workExperience}
         href={`#${HashUrl.workExperience}`}
         className="textDecorationNone"
       >
-        <span role="img" aria-label="Work Experience" className="title fw500">
-          💼 Work Experience
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Work Experience">
+            💼
+          </span>{" "}
+          Work Experience
+        </div>
       </a>
 
       <Spacer height={12} />
@@ -364,7 +367,7 @@ const WorkExperience: React.FC = () => {
           </>
         ),
       })}
-    </>
+    </section>
   );
 };
 

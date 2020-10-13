@@ -172,15 +172,18 @@ const usingTechStack = [
 
 const Skills: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.skills}
         href={`#${HashUrl.skills}`}
         className="textDecorationNone"
       >
-        <span role="img" aria-label="Skills" className="title fw500">
-          🛠 Skills
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Skills">
+            🛠
+          </span>{" "}
+          Skills
+        </div>
       </a>
       <Spacer height={12} />
       <div className="subtitle">
@@ -274,7 +277,7 @@ const Skills: React.FC = () => {
         to listeners, like Redux in React Native and Provider in Flutter. I am
         starting using SwiftUI to build native iOS and macOS apps.
       </p>
-    </>
+    </section>
   );
 };
 

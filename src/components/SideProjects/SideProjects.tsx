@@ -89,22 +89,29 @@ const sideProjectsOpenSource = [
 
 const SideProjects: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.sideProjects}
         href={`#${HashUrl.sideProjects}`}
         className="textDecorationNone"
       >
-        <span role="img" aria-label="Side Projects" className="title fw500">
-          🪓 Side Projects
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Side Projects">
+            🪓
+          </span>{" "}
+          Side Projects
+        </div>
       </a>
 
       <Spacer height={12} />
 
-      <span role="img" aria-label="Mobile apps" className="subtitle fw500">
-        📱 Mobile apps
-      </span>
+      <div className="subtitle fw500">
+        <span role="img" aria-label="Mobile apps">
+          📱
+        </span>{" "}
+        Mobile apps
+      </div>
+
       <Spacer height={12} />
 
       {sideProjectsMobileApps.map((data, index) => {
@@ -120,11 +127,15 @@ const SideProjects: React.FC = () => {
 
       <Spacer height={24} />
 
-      <span role="img" aria-label="macOS apps" className="subtitle fw500">
-        🖥 macOS apps
-      </span>
+      <div className="subtitle fw500">
+        <span role="img" aria-label="macOS apps">
+          🖥
+        </span>{" "}
+        macOS apps
+      </div>
 
       <Spacer height={12} />
+
       {sideProjectsMacApps.map((data, index) => {
         return (
           <React.Fragment key={data.name}>
@@ -138,9 +149,12 @@ const SideProjects: React.FC = () => {
 
       <Spacer height={24} />
 
-      <span role="img" aria-label="Open source" className="subtitle fw500">
-        🗂 Open source
-      </span>
+      <div className="subtitle fw500">
+        <span role="img" aria-label="Open source">
+          🗂
+        </span>{" "}
+        Open source
+      </div>
       <Spacer height={12} />
       {sideProjectsOpenSource.map((data, index) => {
         return (
@@ -152,7 +166,7 @@ const SideProjects: React.FC = () => {
           </React.Fragment>
         );
       })}
-    </>
+    </section>
   );
 };
 

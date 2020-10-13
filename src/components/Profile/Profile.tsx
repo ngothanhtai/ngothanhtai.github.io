@@ -5,7 +5,7 @@ import { Spacer } from "../Spacer/Spacer";
 
 const Profile = () => {
   return (
-    <div className="flex flexRow jcSpaceBetween">
+    <header className="flex flexRow jcSpaceBetween">
       <div className="flex flexColumn">
         <div className="flex flexRow">
           <img
@@ -26,7 +26,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

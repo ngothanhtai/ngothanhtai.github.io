@@ -4,15 +4,18 @@ import { Spacer } from "../Spacer/Spacer";
 
 const Publication: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.publication}
         href={`#${HashUrl.publication}`}
         className="textDecorationNone"
       >
-        <span role="img" aria-label="Publication" className="title fw500">
-          📜 Publication
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Publication">
+            📜
+          </span>{" "}
+          Publication
+        </div>
       </a>
       <ul>
         <li>
@@ -46,7 +49,7 @@ const Publication: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </section>
   );
 };
 

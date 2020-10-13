@@ -4,7 +4,7 @@ import { Spacer } from "../Spacer/Spacer";
 
 const Summary: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.summary}
         href={`#${HashUrl.summary}`}
@@ -46,7 +46,7 @@ const Summary: React.FC = () => {
           use React / React Native / Flutter or SwiftUI.
         </p>
       </div>
-    </>
+    </section>
   );
 };
 

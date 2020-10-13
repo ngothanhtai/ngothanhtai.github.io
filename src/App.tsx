@@ -4,7 +4,7 @@ import { Awards } from "./components/Awards/Awards";
 import { Education } from "./components/Education/Education";
 import { Languages } from "./components/Languages/Languages";
 import { Profile } from "./components/Profile/Profile";
-import { Publication } from "./components/Publication/Publication";
+// import { Publication } from "./components/Publication/Publication";
 import { SideProjects } from "./components/SideProjects/SideProjects";
 import { Skills } from "./components/Skills/Skills";
 import { Spacer } from "./components/Spacer/Spacer";
@@ -15,7 +15,7 @@ import { WorkExperience } from "./components/WorkExperience/WorkExperience";
 
 const App: React.FC = () => {
   return (
-    <div className="app">
+    <article className="app">
       <Profile />
 
       <Spacer height={24} />
@@ -50,14 +50,14 @@ const App: React.FC = () => {
 
       <Awards />
 
-      <Spacer height={24} />
+      {/* <Spacer height={24} />
 
-      <Publication />
+      <Publication /> */}
 
       <Spacer height={24} />
 
       <VolunteerExperience />
-    </div>
+    </article>
   );
 };
 

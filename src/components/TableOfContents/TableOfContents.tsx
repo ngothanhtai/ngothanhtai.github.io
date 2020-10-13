@@ -23,25 +23,26 @@ const tableOfContentItems = [
     icon: "💼",
     title: "Work Experience",
   },
+
+  // {
+  //   hashUrl: HashUrl.publication,
+  //   icon: "📜",
+  //   title: "Publication",
+  // },
+  {
+    hashUrl: HashUrl.education,
+    icon: "📚",
+    title: "Education",
+  },
   {
     hashUrl: HashUrl.languages,
     icon: "🗣",
     title: "Languages",
   },
   {
-    hashUrl: HashUrl.publication,
-    icon: "📜",
-    title: "Publication",
-  },
-  {
     hashUrl: HashUrl.awards,
     icon: "🏆",
     title: "Awards",
-  },
-  {
-    hashUrl: HashUrl.education,
-    icon: "📚",
-    title: "Education",
   },
   {
     hashUrl: HashUrl.volunteerExperience,
@@ -51,7 +52,7 @@ const tableOfContentItems = [
 ];
 const TableOfContents: React.FC = () => {
   return (
-    <div className="flex tableOfContents">
+    <nav className="flex tableOfContents">
       {tableOfContentItems.map(({ hashUrl, icon, title }) => (
         <a
           key={hashUrl}
@@ -65,7 +66,7 @@ const TableOfContents: React.FC = () => {
           <span>{title}</span>
         </a>
       ))}
-    </div>
+    </nav>
   );
 };
 

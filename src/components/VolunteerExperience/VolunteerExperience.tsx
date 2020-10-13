@@ -4,19 +4,18 @@ import { Spacer } from "../Spacer/Spacer";
 
 const VolunteerExperience: React.FC = () => {
   return (
-    <>
+    <section>
       <a
         id={HashUrl.volunteerExperience}
         href={`#${HashUrl.volunteerExperience}`}
         className="textDecorationNone"
       >
-        <span
-          role="img"
-          aria-label="Volunteer Experience"
-          className="title fw500"
-        >
-          ✋ Volunteer Experience
-        </span>
+        <div className="title fw500">
+          <span role="img" aria-label="Volunteer Experience">
+            ✋
+          </span>{" "}
+          Volunteer Experience
+        </div>
       </a>
       <ul>
         <li>
@@ -37,7 +36,7 @@ const VolunteerExperience: React.FC = () => {
           </ul>
         </li>
       </ul>
-    </>
+    </section>
   );
 };
 

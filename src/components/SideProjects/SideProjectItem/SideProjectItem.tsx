@@ -40,9 +40,10 @@ const SideProjectItem: React.FC<Props> = ({
                 if (onPress != null) {
                   return onPress(url);
                 }
-                setShow(!show);
+                const nextShowState = !show;
+                setShow(nextShowState);
 
-                updateHashUrl(anchorHash);
+                updateHashUrl(nextShowState ? anchorHash : "");
               }}
             >
               <div className="flex flexRow highlightOnHover">

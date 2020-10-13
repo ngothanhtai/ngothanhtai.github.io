@@ -101,9 +101,9 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
       <Spacer height={verticalLayout ? 40 : 100} />
 
       <div className="flex flexColumn jcCenter">
-        <div className="flex flexRowResponsive aiCenter jcCenter phoneOffset">
+        <figure className="flex flexRowResponsive aiCenter jcCenter phoneOffset">
           <Spacer width={80} />
-          <div>
+          <figcaption>
             <div className="title fw500 red">Change currency</div>
             <Spacer height={12} />
             <div className="body fw500 phoneDescription">
@@ -111,7 +111,7 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
               currencies. Search and select a currency to change.
             </div>
             <Spacer height={verticalLayout ? 24 : 300} />
-          </div>
+          </figcaption>
 
           <Spacer width={80} />
 
@@ -120,11 +120,11 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
             video={Videos.changeCurrency.video}
             scale={phoneScale}
           />
-        </div>
+        </figure>
 
         {verticalLayout && <Spacer height={60} />}
 
-        <div
+        <figure
           className={classNames("flex aiCenter jcCenter phoneOffset", {
             flexRow: !verticalLayout,
             flexColumn: verticalLayout,
@@ -139,22 +139,22 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
 
           <Spacer width={80} />
 
-          <div>
+          <figcaption>
             <div className="title fw500 red">Change the currency order</div>
             <Spacer height={12} />
             <div className="body fw500 phoneDescription">
               Drag and drop on the currency row you want to change the order.
             </div>
             <Spacer height={verticalLayout ? 24 : 300} />
-          </div>
-        </div>
+          </figcaption>
+        </figure>
 
         {verticalLayout && <Spacer height={60} />}
 
-        <div className="flex flexRowResponsive aiCenter jcCenter">
+        <figure className="flex flexRowResponsive aiCenter jcCenter">
           <Spacer width={80} />
 
-          <div>
+          <figcaption>
             <div className="title fw500 red">Dark mode</div>
             <Spacer height={6} />
             <div className="body fw500 phoneDescription">
@@ -162,51 +162,56 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
               preferences in Settings.
             </div>
             <Spacer height={verticalLayout ? 24 : 300} />
-          </div>
+          </figcaption>
 
           <Spacer width={80} />
 
           <Phone video={Videos.changeTheme} loop scale={phoneScale} />
-        </div>
+        </figure>
         <Spacer height={100} />
 
         <div className="flex flexRowResponsive aiCenter jcCenter">
-          <div className="flex flexColumn aiCenter">
-            <div className="title fw500 red phoneDescription">
-              Copy converted value
-            </div>
-            <Spacer height={12} />
-            <div className="body fw500 phoneDescription">
-              Press and hold to copy the converted value.
-            </div>
+          <figure className="flex flexColumn aiCenter">
+            <figcaption>
+              <div className="title fw500 red phoneDescription">
+                Copy converted value
+              </div>
+              <Spacer height={12} />
+              <div className="body fw500 phoneDescription">
+                Press and hold to copy the converted value.
+              </div>
+            </figcaption>
             <Spacer height={12} />
             <Phone
               video={Videos.pressAndHoldToCopy.video}
               poster={Videos.pressAndHoldToCopy.poster}
               scale={phoneScale}
             />
-          </div>
+          </figure>
 
           <Spacer
             width={verticalLayout ? 0 : 100}
             height={verticalLayout ? 60 : 0}
           />
 
-          <div className="flex flexColumn aiCenter">
-            <div className="title fw500 red phoneDescription">
-              Delete value continuously
-            </div>
-            <Spacer height={12} />
-            <div className="body fw500 phoneDescription">
-              Press and hold the Backspace button to keep deleting continuously.
-            </div>
+          <figure className="flex flexColumn aiCenter">
+            <figcaption>
+              <div className="title fw500 red phoneDescription">
+                Delete value continuously
+              </div>
+              <Spacer height={12} />
+              <div className="body fw500 phoneDescription">
+                Press and hold the Backspace button to keep deleting
+                continuously.
+              </div>
+            </figcaption>
             <Spacer height={12} />
             <Phone
               video={Videos.pressAndHoldToKeepDeleting.video}
               poster={Videos.pressAndHoldToKeepDeleting.poster}
               scale={phoneScale}
             />
-          </div>
+          </figure>
         </div>
       </div>
     </>
