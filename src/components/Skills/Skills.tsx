@@ -186,8 +186,8 @@ const Skills: React.FC = () => {
         </div>
       </a>
       <Spacer height={12} />
-      <div className="subtitle">
-        Programming languages, Librarires and Tools
+      <div className="subtitle fw500">
+        Programming languages, Libraries and Tools
       </div>
       <Spacer height={12} />
       <div className="body">I used before:</div>
@@ -215,11 +215,11 @@ const Skills: React.FC = () => {
       <Spacer height={12} />
       <p className="body">
         Moving from ActionScript 3 to Javascript, I feel that ActionScript 3 is
-        like Typescript for Javascript today. Which I can use class, interface,
-        inherit, typed language. I used ActionScript 3 for three years. I
-        learned how to optimize UI and animation to make it fast. I also know
-        how to inject the pre-loader to control the Flash view, mostly for
-        hacking other Flash games{" "}
+        like Typescript today. Which I can use class, interface, inherit, typed
+        language. I used ActionScript 3 for three years. I learned how to
+        optimize UI and animation to make it fast. I also know how to inject the
+        pre-loader to control the Flash view, mostly for hacking other Flash
+        games{" "}
         <span role="img" aria-label="black hat">
           🎩
         </span>

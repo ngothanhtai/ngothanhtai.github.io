@@ -36,10 +36,6 @@ const App: React.FC = () => {
 
       <Spacer height={24} />
 
-      <WorkExperience />
-
-      <Spacer height={24} />
-
       <Education />
 
       <Spacer height={24} />
@@ -50,13 +46,17 @@ const App: React.FC = () => {
 
       <Awards />
 
-      {/* <Spacer height={24} />
-
-      <Publication /> */}
-
       <Spacer height={24} />
 
       <VolunteerExperience />
+
+      <Spacer height={24} />
+
+      <WorkExperience />
+
+      {/* <Spacer height={24} />
+
+      <Publication /> */}
     </article>
   );
 };
