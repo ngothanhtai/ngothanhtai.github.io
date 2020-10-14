@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb469f45.chunk.css",
-    "main.js": "/static/js/main.983364a5.chunk.js",
-    "main.js.map": "/static/js/main.983364a5.chunk.js.map",
+    "main.css": "/static/css/main.d5631e79.chunk.css",
+    "main.js": "/static/js/main.bd593fc0.chunk.js",
+    "main.js.map": "/static/js/main.bd593fc0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa55c731.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa55c731.js.map",
     "static/js/2.ed1ec6c6.chunk.js": "/static/js/2.ed1ec6c6.chunk.js",
     "static/js/2.ed1ec6c6.chunk.js.map": "/static/js/2.ed1ec6c6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.36a760e12e236ae76ff69649b5da3bef.js": "/precache-manifest.36a760e12e236ae76ff69649b5da3bef.js",
+    "precache-manifest.a15fca59b49e3062b376189b195094a6.js": "/precache-manifest.a15fca59b49e3062b376189b195094a6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fb469f45.chunk.css.map": "/static/css/main.fb469f45.chunk.css.map",
+    "static/css/main.d5631e79.chunk.css.map": "/static/css/main.d5631e79.chunk.css.map",
     "static/js/2.ed1ec6c6.chunk.js.LICENSE.txt": "/static/js/2.ed1ec6c6.chunk.js.LICENSE.txt",
     "static/media/add or remove a currency poster.png": "/static/media/add or remove a currency poster.d4e4b124.png",
     "static/media/add or remove a currency.mp4": "/static/media/add or remove a currency.d3d5e9de.mp4",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa55c731.js",
     "static/js/2.ed1ec6c6.chunk.js",
-    "static/css/main.fb469f45.chunk.css",
-    "static/js/main.983364a5.chunk.js"
+    "static/css/main.d5631e79.chunk.css",
+    "static/js/main.bd593fc0.chunk.js"
   ]
 }

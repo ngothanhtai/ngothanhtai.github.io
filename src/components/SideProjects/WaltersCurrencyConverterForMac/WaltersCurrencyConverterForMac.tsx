@@ -44,6 +44,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
         </figcaption>
       </figure>
 
+      {verticalLayout && <Spacer height={48} />}
+
       <figure>
         <video
           poster={Videos.walterscc.mac.dragAndDropToChangeTheOrder.poster}
@@ -70,6 +72,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
           </div>
         </figcaption>
       </figure>
+
+      {verticalLayout && <Spacer height={48} />}
 
       <figure>
         <video
@@ -103,6 +107,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
         </figcaption>
       </figure>
 
+      {verticalLayout && <Spacer height={48} />}
+
       <figure>
         <video
           poster={
@@ -135,6 +141,8 @@ const Features: React.FC<Props> = ({ verticalLayout }) => {
           </div>
         </figcaption>
       </figure>
+
+      {verticalLayout && <Spacer height={48} />}
 
       <figure>
         <video
@@ -174,11 +182,11 @@ const WaltersCurrencyConverterForMac: React.FC = () => {
     <div className="flex flexColumn flex1">
       <WaltersCCIntro />
 
-      <Spacer height={24} />
+      <Spacer height={48} />
 
       <Features verticalLayout={verticalLayout} />
 
-      <Spacer height={24} />
+      <Spacer height={48} />
 
       <WaltersCCDownload verticalLayout={verticalLayout} />
 

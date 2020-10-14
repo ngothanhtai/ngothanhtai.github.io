@@ -1,12 +1,11 @@
 .waltersccForMacGrid {
   display: grid;
-  row-gap: 20px;
-  column-gap: 20px;
+  row-gap: 24px;
+  column-gap: 24px;
 }
 
 .waltersccForMacGridItem {
   width: 100%;
-  grid-column-start: span 2;
   grid-column-end: auto;
   grid-row-start: auto;
 }
@@ -17,16 +16,18 @@
   }
 
   .waltersccForMacGridItem {
+    grid-column-start: span 2;
     grid-row-start: span 2;
   }
 }
 
 @media only screen and (max-width: 1000px) {
   .waltersccForMacGrid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
   }
 
   .waltersccForMacGridItem {
+    grid-column-start: auto;
     grid-row-start: span 1;
   }
 }
