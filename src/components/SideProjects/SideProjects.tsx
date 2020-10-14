@@ -40,7 +40,7 @@ const sideProjectsMobileApps = [
 const sideProjectsMacApps = [
   {
     publishDate: "12 October 2018",
-    name: "Walter's Currency Converter",
+    name: "Walter's Currency Converter for Mac",
     url: "https://walterscc.web.app",
     content: <WaltersCurrencyConverterForMac />,
     anchorHash: "walters-currency-converter-for-mac",
