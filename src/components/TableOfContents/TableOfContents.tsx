@@ -18,11 +18,6 @@ const tableOfContentItems = [
     icon: "🪓",
     title: "Side Projects",
   },
-  {
-    hashUrl: HashUrl.workExperience,
-    icon: "💼",
-    title: "Work Experience",
-  },
 
   // {
   //   hashUrl: HashUrl.publication,
@@ -48,6 +43,11 @@ const tableOfContentItems = [
     hashUrl: HashUrl.volunteerExperience,
     icon: "✋",
     title: "Volunteer Experience",
+  },
+  {
+    hashUrl: HashUrl.workExperience,
+    icon: "💼",
+    title: "Work Experience",
   },
 ];
 const TableOfContents: React.FC = () => {
