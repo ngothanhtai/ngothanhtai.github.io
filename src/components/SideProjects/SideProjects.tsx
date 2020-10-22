@@ -3,7 +3,6 @@ import { Images } from "../../assets/images";
 import { HashUrl } from "../../utils/constants";
 import { Spacer } from "../Spacer/Spacer";
 import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConnectedWifiName";
-import { MGL } from "./MGL/MGL";
 import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
 import { SideProjectItem } from "./SideProjectItem/SideProjectItem";
 import { WaltersCurrencyConverterForMac } from "./WaltersCurrencyConverterForMac/WaltersCurrencyConverterForMac";
@@ -32,9 +31,11 @@ const sideProjectsMobileApps = [
     publishDate: "13 June 2020",
     name: "My Gay Life (MGL) - Gay chat",
     url: "https://mgl419.com",
-    content: <MGL />,
     anchorHash: "mgl",
     icon: Images.sideProjects.mgl,
+    onPress: (url: string) => {
+      window.open(url, "_blank");
+    },
   },
 ];
 
