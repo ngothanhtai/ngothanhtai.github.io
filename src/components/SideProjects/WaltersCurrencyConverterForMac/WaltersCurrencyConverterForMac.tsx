@@ -2,11 +2,9 @@ import React from "react";
 import { Videos } from "../../../assets/videos";
 import { isSmallScreen, useWindowSize } from "../../../utils/window";
 import { Spacer } from "../../Spacer/Spacer";
-import {
-  WaltersCCContact,
-  WaltersCCDownload,
-  WaltersCCIntro,
-} from "../WaltersCurrencyConverter/WaltersCurrencyConverter";
+import { WaltersCurrencyConverterContact } from "../WaltersCurrencyConverter/WaltersCurrencyConverterContact";
+import { WaltersCurrencyConverterDownload } from "../WaltersCurrencyConverter/WaltersCurrencyConverterDownload";
+import { WaltersCurrencyConverterIntro } from "../WaltersCurrencyConverter/WaltersCurrencyConverterIntro";
 import "./WaltersCurrencyConverterForMac.css";
 
 type Props = {
@@ -180,7 +178,7 @@ const WaltersCurrencyConverterForMac: React.FC = () => {
 
   return (
     <div className="flex flexColumn flex1">
-      <WaltersCCIntro />
+      <WaltersCurrencyConverterIntro />
 
       <Spacer height={48} />
 
@@ -188,11 +186,11 @@ const WaltersCurrencyConverterForMac: React.FC = () => {
 
       <Spacer height={48} />
 
-      <WaltersCCDownload verticalLayout={verticalLayout} />
+      <WaltersCurrencyConverterDownload verticalLayout={verticalLayout} />
 
       <Spacer height={24} />
 
-      <WaltersCCContact />
+      <WaltersCurrencyConverterContact />
     </div>
   );
 };

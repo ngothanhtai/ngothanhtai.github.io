@@ -166,6 +166,10 @@ a:hover {
   font-weight: 500;
 }
 
+.fw600 {
+  font-weight: 600;
+}
+
 .opacity1 {
   opacity: 1;
   transition: opacity 1s;
@@ -241,4 +245,8 @@ a:hover {
 
 .red {
   color: #cc3b25;
+}
+
+.italic {
+  font-style: italic;
 }

@@ -6,7 +6,6 @@ import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConn
 import { MGL } from "./MGL/MGL";
 import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
 import { SideProjectItem } from "./SideProjectItem/SideProjectItem";
-import { WaltersCurrencyConverter } from "./WaltersCurrencyConverter/WaltersCurrencyConverter";
 import { WaltersCurrencyConverterForMac } from "./WaltersCurrencyConverterForMac/WaltersCurrencyConverterForMac";
 import { WhatTheFOOD } from "./WhatTheFOOD/WhatTheFOOD";
 
@@ -15,9 +14,11 @@ const sideProjectsMobileApps = [
     publishDate: "12 October 2018",
     name: "Walter's Currency Converter",
     url: "https://walterscc.web.app",
-    content: <WaltersCurrencyConverter />,
     anchorHash: "walters-currency-converter",
     icon: Images.sideProjects.walterscc,
+    onPress: (url: string) => {
+      window.open(url, "_blank");
+    },
   },
   {
     publishDate: "7 December 2019",

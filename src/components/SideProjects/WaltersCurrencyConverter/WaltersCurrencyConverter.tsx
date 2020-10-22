@@ -1,97 +1,18 @@
 import classNames from "classnames";
 import React from "react";
-import { Images } from "../../../assets/images";
 import { Videos } from "../../../assets/videos";
 import { isSmallScreen, useWindowSize } from "../../../utils/window";
 import { Phone } from "../../Phone/Phone";
-import { Press } from "../../Press/Press";
 import { Spacer } from "../../Spacer/Spacer";
+import { WaltersCurrencyConverterContact } from "./WaltersCurrencyConverterContact";
+import { WaltersCurrencyConverterDownload } from "./WaltersCurrencyConverterDownload";
+import { WaltersCurrencyConverterFAQ } from "./WaltersCurrencyConverterFAQ";
+import { WaltersCurrencyConverterIntro } from "./WaltersCurrencyConverterIntro";
 const phoneScale = 0.7;
 
 type Props = {
   verticalLayout: boolean;
 };
-
-const WaltersCCIntro: React.FC = () => (
-  <>
-    <div className="body">
-      A currency converter utility which supports converting more than 160
-      currencies for macOS, iOS and Android.
-    </div>
-    <Spacer height={12} />
-    <div className="body">
-      Useful when traveling and spending money in other countries.
-    </div>
-  </>
-);
-
-const WaltersCCDownload: React.FC<Props> = ({ verticalLayout }) => {
-  const storeImageSize = {
-    width: verticalLayout ? 150 : undefined,
-    height: !verticalLayout ? 60 : undefined,
-  };
-  return (
-    <div className="flex flexColumn aiCenter">
-      <div className="title fw500 red">
-        Avaiable on <b>App Store</b>, <b>Mac App Store</b> and{" "}
-        <b>Google Play</b>
-      </div>
-
-      <Spacer height={12} />
-
-      <div className="flex flexRowResponsive">
-        <Press
-          url="https://apps.apple.com/us/app/id1438605135"
-          onPress={(url) => window.open(url, "_blank")}
-        >
-          <img
-            {...storeImageSize}
-            alt="Appstore"
-            src={Images.sideProjects.storeDownloadBadges.appstore}
-          />
-        </Press>
-
-        <Spacer height={12} width={24} />
-
-        <Press
-          url="https://apps.apple.com/us/app/walters-currency-converter/id1456511514"
-          onPress={(url) => window.open(url, "_blank")}
-        >
-          <img
-            {...storeImageSize}
-            alt="Mac App Store"
-            src={Images.sideProjects.storeDownloadBadges.macAppStore}
-          />
-        </Press>
-
-        <Spacer height={12} width={24} />
-
-        <Press
-          url="https://play.google.com/store/apps/details?id=com.walter.currencyconverter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-          onPress={(url) => window.open(url, "_blank")}
-        >
-          <img
-            {...storeImageSize}
-            alt="Playstore"
-            src={Images.sideProjects.storeDownloadBadges.playstore}
-          />
-        </Press>
-      </div>
-    </div>
-  );
-};
-
-const WaltersCCContact: React.FC = () => (
-  <div className="body textAlignCenter">
-    Any ideas, improvements, or anything, you are welcome, please send it to{" "}
-    <Press
-      url={"mailto:codesigngo@gmail.com"}
-      onPress={(url) => window.open(url)}
-    >
-      <span className="highlightOnHover">codesigngo@gmail.com</span>
-    </Press>
-  </div>
-);
 
 const Features: React.FC<Props> = ({ verticalLayout }) => {
   return (
@@ -229,7 +150,7 @@ const WaltersCurrencyConverter: React.FC = () => {
 
   return (
     <div className="flex flexColumn flex1">
-      <WaltersCCIntro />
+      <WaltersCurrencyConverterIntro />
 
       <Spacer height={24} />
 
@@ -237,18 +158,17 @@ const WaltersCurrencyConverter: React.FC = () => {
 
       <Spacer height={24} />
 
-      <WaltersCCDownload verticalLayout={verticalLayout} />
+      <WaltersCurrencyConverterFAQ />
 
       <Spacer height={24} />
 
-      <WaltersCCContact />
+      <WaltersCurrencyConverterDownload verticalLayout={verticalLayout} />
+
+      <Spacer height={24} />
+
+      <WaltersCurrencyConverterContact />
     </div>
   );
 };
 
-export {
-  WaltersCurrencyConverter,
-  WaltersCCIntro,
-  WaltersCCDownload,
-  WaltersCCContact,
-};
+export { WaltersCurrencyConverter };
