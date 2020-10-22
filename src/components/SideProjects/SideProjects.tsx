@@ -43,10 +43,12 @@ const sideProjectsMacApps = [
   {
     publishDate: "19 March 2019",
     name: "Walter's Currency Converter for Mac",
-    url: "https://walterscc.web.app",
-    content: <WaltersCurrencyConverterForMac />,
+    url: "https://walterscc.web.app/#macos",
     anchorHash: "walters-currency-converter-for-mac",
     icon: Images.sideProjects.walterscc,
+    onPress: (url: string) => {
+      window.open(url, "_blank");
+    },
   },
   {
     publishDate: "18 August 2020",
