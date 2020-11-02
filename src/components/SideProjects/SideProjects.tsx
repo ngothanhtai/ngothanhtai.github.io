@@ -5,7 +5,6 @@ import { Spacer } from "../Spacer/Spacer";
 import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConnectedWifiName";
 import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
 import { SideProjectItem } from "./SideProjectItem/SideProjectItem";
-import { WaltersCurrencyConverterForMac } from "./WaltersCurrencyConverterForMac/WaltersCurrencyConverterForMac";
 import { WhatTheFOOD } from "./WhatTheFOOD/WhatTheFOOD";
 
 const sideProjectsMobileApps = [
