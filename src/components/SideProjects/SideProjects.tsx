@@ -26,16 +26,16 @@ const sideProjectsMobileApps = [
     anchorHash: "what-the-FOOD",
     icon: Images.sideProjects.whatTheFOOD,
   },
-  {
-    publishDate: "13 June 2020",
-    name: "My Gay Life (MGL) - Gay chat",
-    url: "https://mgl419.com",
-    anchorHash: "mgl",
-    icon: Images.sideProjects.mgl,
-    onPress: (url: string) => {
-      window.open(url, "_blank");
-    },
-  },
+  // {
+  //   publishDate: "13 June 2020",
+  //   name: "My Gay Life (MGL) - Gay chat",
+  //   url: "https://mgl419.com",
+  //   anchorHash: "mgl",
+  //   icon: Images.sideProjects.mgl,
+  //   onPress: (url: string) => {
+  //     window.open(url, "_blank");
+  //   },
+  // },
 ];
 
 const sideProjectsMacApps = [
