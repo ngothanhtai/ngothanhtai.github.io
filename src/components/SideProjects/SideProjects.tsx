@@ -18,14 +18,14 @@ const sideProjectsMobileApps = [
       window.open(url, "_blank");
     },
   },
-  {
-    publishDate: "7 December 2019",
-    name: "what the FOOD",
-    url: "https://onelink.to/3gq6hx",
-    content: <WhatTheFOOD />,
-    anchorHash: "what-the-FOOD",
-    icon: Images.sideProjects.whatTheFOOD,
-  },
+  // {
+  //   publishDate: "7 December 2019",
+  //   name: "what the FOOD",
+  //   url: "https://onelink.to/3gq6hx",
+  //   content: <WhatTheFOOD />,
+  //   anchorHash: "what-the-FOOD",
+  //   icon: Images.sideProjects.whatTheFOOD,
+  // },
   // {
   //   publishDate: "13 June 2020",
   //   name: "My Gay Life (MGL) - Gay chat",
