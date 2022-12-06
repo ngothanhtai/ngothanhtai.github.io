@@ -19,21 +19,11 @@ const VolunteerExperience: React.FC = () => {
       </a>
       <ul>
         <li>
-          <p className="subtitle fw500">Barcamp Saigon</p>
-          <ul className="description">
-            <li>Role: Board team</li>
-            <li>Time: November 2015</li>
-            <li>Location: RMIT University</li>
-          </ul>
+          <p className="subtitle fw500">Barcamp Saigon (Nov 2015)</p>
         </li>
         <Spacer height={12} />
         <li>
-          <p className="subtitle fw500">Coderschool Learning Class</p>
-          <ul className="description">
-            <li>Role: Teacher Assistant for React Native class</li>
-            <li>Time: March 2017 to April 2017</li>
-            <li>Location: CirCO co-working space</li>
-          </ul>
+          <p className="subtitle fw500">Teacher Assistant at Coderschool (Mar 2017 iOS course)</p>
         </li>
       </ul>
     </section>

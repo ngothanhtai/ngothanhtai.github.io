@@ -2,10 +2,10 @@ import React from "react";
 import { Images } from "../../assets/images";
 import { HashUrl } from "../../utils/constants";
 import { Spacer } from "../Spacer/Spacer";
-import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConnectedWifiName";
-import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
+// import { DisplayConnectedWifiName } from "./DisplayConnectedWifiName/DisplayConnectedWifiName";
+// import { ScrollToTop } from "./ScrollToTop/ScrollToTop";
 import { SideProjectItem } from "./SideProjectItem/SideProjectItem";
-import { WhatTheFOOD } from "./WhatTheFOOD/WhatTheFOOD";
+// import { WhatTheFOOD } from "./WhatTheFOOD/WhatTheFOOD";
 
 const sideProjectsMobileApps = [
   {
@@ -38,58 +38,58 @@ const sideProjectsMobileApps = [
   // },
 ];
 
-const sideProjectsMacApps = [
-  {
-    publishDate: "19 March 2019",
-    name: "Walter's Currency Converter for Mac",
-    url: "https://walterscc.web.app/#macos",
-    anchorHash: "walters-currency-converter-for-mac",
-    icon: Images.sideProjects.walterscc,
-    onPress: (url: string) => {
-      window.open(url, "_blank");
-    },
-  },
-  {
-    publishDate: "18 August 2020",
-    name: "Display connected Wifi name",
-    url:
-      "https://apps.apple.com/vn/app/display-connected-wifi-name/id1526918434?mt=12",
-    content: <DisplayConnectedWifiName />,
-    anchorHash: "display-connected-wifi-name",
-    icon: Images.sideProjects.displayConnectedWifiName,
-  },
-  {
-    publishDate: "21 September 2020",
-    name: "Safari extension: Scroll to the top of the page",
-    url:
-      "https://apps.apple.com/vn/app/scroll-to-the-top-of-the-page/id1532648692?mt=12",
-    content: <ScrollToTop />,
-    anchorHash: "scroll-to-top",
-    icon: Images.sideProjects.scrollToTop,
-  },
-];
-
-const sideProjectsOpenSource = [
-  {
-    publishDate: "3 April 2017",
-    name: "react-native-auto-typing-text",
-    anchorHash: "react-native-auto-typing-text",
-    url: "https://github.com/ngothanhtai/react-native-auto-typing-text",
-    onPress: (url: string) => {
-      window.open(url, "_blank");
-    },
-  },
-
-  {
-    publishDate: "1 March 2020",
-    name: "platform_utils",
-    anchorHash: "platform_utils",
-    url: "https://pub.dev/packages/platform_utils",
-    onPress: (url: string) => {
-      window.open(url, "_blank");
-    },
-  },
-];
+// const sideProjectsMacApps = [
+//   {
+//     publishDate: "19 March 2019",
+//     name: "Walter's Currency Converter for Mac",
+//     url: "https://walterscc.web.app/#macos",
+//     anchorHash: "walters-currency-converter-for-mac",
+//     icon: Images.sideProjects.walterscc,
+//     onPress: (url: string) => {
+//       window.open(url, "_blank");
+//     },
+//   },
+//   {
+//     publishDate: "18 August 2020",
+//     name: "Display connected Wifi name",
+//     url:
+//       "https://apps.apple.com/vn/app/display-connected-wifi-name/id1526918434?mt=12",
+//     content: <DisplayConnectedWifiName />,
+//     anchorHash: "display-connected-wifi-name",
+//     icon: Images.sideProjects.displayConnectedWifiName,
+//   },
+//   {
+//     publishDate: "21 September 2020",
+//     name: "Safari extension: Scroll to the top of the page",
+//     url:
+//       "https://apps.apple.com/vn/app/scroll-to-the-top-of-the-page/id1532648692?mt=12",
+//     content: <ScrollToTop />,
+//     anchorHash: "scroll-to-top",
+//     icon: Images.sideProjects.scrollToTop,
+//   },
+// ];
+//
+// const sideProjectsOpenSource = [
+//   {
+//     publishDate: "3 April 2017",
+//     name: "react-native-auto-typing-text",
+//     anchorHash: "react-native-auto-typing-text",
+//     url: "https://github.com/ngothanhtai/react-native-auto-typing-text",
+//     onPress: (url: string) => {
+//       window.open(url, "_blank");
+//     },
+//   },
+//
+//   {
+//     publishDate: "1 March 2020",
+//     name: "platform_utils",
+//     anchorHash: "platform_utils",
+//     url: "https://pub.dev/packages/platform_utils",
+//     onPress: (url: string) => {
+//       window.open(url, "_blank");
+//     },
+//   },
+// ];
 
 const SideProjects: React.FC = () => {
   return (
@@ -109,14 +109,14 @@ const SideProjects: React.FC = () => {
 
       <Spacer height={12} />
 
-      <div className="subtitle fw500">
-        <span role="img" aria-label="Mobile apps">
-          📱
-        </span>{" "}
-        Mobile apps
-      </div>
+      {/*<div className="subtitle fw500">*/}
+      {/*  <span role="img" aria-label="Mobile apps">*/}
+      {/*    📱*/}
+      {/*  </span>{" "}*/}
+      {/*  Mobile apps*/}
+      {/*</div>*/}
 
-      <Spacer height={12} />
+      {/*<Spacer height={12} />*/}
 
       {sideProjectsMobileApps.map((data, index) => {
         return (
@@ -129,47 +129,47 @@ const SideProjects: React.FC = () => {
         );
       })}
 
-      <Spacer height={24} />
+      {/*<Spacer height={24} />*/}
 
-      <div className="subtitle fw500">
-        <span role="img" aria-label="macOS apps">
-          🖥
-        </span>{" "}
-        macOS apps
-      </div>
+      {/*<div className="subtitle fw500">*/}
+      {/*  <span role="img" aria-label="macOS apps">*/}
+      {/*    🖥*/}
+      {/*  </span>{" "}*/}
+      {/*  macOS apps*/}
+      {/*</div>*/}
 
-      <Spacer height={12} />
+      {/*<Spacer height={12} />*/}
 
-      {sideProjectsMacApps.map((data, index) => {
-        return (
-          <React.Fragment key={data.name}>
-            <SideProjectItem data={data} />
-            {index !== sideProjectsMobileApps.length - 1 && (
-              <Spacer height={12} />
-            )}
-          </React.Fragment>
-        );
-      })}
+      {/*{sideProjectsMacApps.map((data, index) => {*/}
+      {/*  return (*/}
+      {/*    <React.Fragment key={data.name}>*/}
+      {/*      <SideProjectItem data={data} />*/}
+      {/*      {index !== sideProjectsMobileApps.length - 1 && (*/}
+      {/*        <Spacer height={12} />*/}
+      {/*      )}*/}
+      {/*    </React.Fragment>*/}
+      {/*  );*/}
+      {/*})}*/}
 
-      <Spacer height={24} />
+      {/*<Spacer height={24} />*/}
 
-      <div className="subtitle fw500">
-        <span role="img" aria-label="Open source">
-          🗂
-        </span>{" "}
-        Open source
-      </div>
-      <Spacer height={12} />
-      {sideProjectsOpenSource.map((data, index) => {
-        return (
-          <React.Fragment key={data.name}>
-            <SideProjectItem data={data} />
-            {index !== sideProjectsOpenSource.length - 1 && (
-              <Spacer height={12} />
-            )}
-          </React.Fragment>
-        );
-      })}
+      {/*<div className="subtitle fw500">*/}
+      {/*  <span role="img" aria-label="Open source">*/}
+      {/*    🗂*/}
+      {/*  </span>{" "}*/}
+      {/*  Open source*/}
+      {/*</div>*/}
+      {/*<Spacer height={12} />*/}
+      {/*{sideProjectsOpenSource.map((data, index) => {*/}
+      {/*  return (*/}
+      {/*    <React.Fragment key={data.name}>*/}
+      {/*      <SideProjectItem data={data} />*/}
+      {/*      {index !== sideProjectsOpenSource.length - 1 && (*/}
+      {/*        <Spacer height={12} />*/}
+      {/*      )}*/}
+      {/*    </React.Fragment>*/}
+      {/*  );*/}
+      {/*})}*/}
     </section>
   );
 };

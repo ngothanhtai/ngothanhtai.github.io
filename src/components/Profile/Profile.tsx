@@ -9,7 +9,7 @@ const Profile = () => {
       <div className="flex flexColumn">
         <div className="flex flexRow">
           <img
-            alt="Walter Ngô Thanh Tài"
+            alt="Ngô Thanh Tài (Walter)"
             src={Images.walter}
             width={100}
             height={100}
@@ -17,9 +17,7 @@ const Profile = () => {
           <Spacer width={12} />
           <div className="flex flexColumn jcCenter">
             <p className="title">
-              Walter
-              <br />
-              Ngô Thanh Tài
+              Ngô Thanh Tài (Walter)
             </p>
 
             <ContactInformation />

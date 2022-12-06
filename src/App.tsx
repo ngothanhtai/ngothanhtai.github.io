@@ -6,7 +6,7 @@ import { Languages } from "./components/Languages/Languages";
 import { Profile } from "./components/Profile/Profile";
 // import { Publication } from "./components/Publication/Publication";
 import { SideProjects } from "./components/SideProjects/SideProjects";
-import { Skills } from "./components/Skills/Skills";
+// import { Skills } from "./components/Skills/Skills";
 import { Spacer } from "./components/Spacer/Spacer";
 import { Summary } from "./components/Summary/Summary";
 import { TableOfContents } from "./components/TableOfContents/TableOfContents";
@@ -26,11 +26,15 @@ const App: React.FC = () => {
 
       <Summary />
 
+        <Spacer height={24} />
+
+        <WorkExperience />
+
       <Spacer height={24} />
 
-      <Skills />
+      {/*<Skills />*/}
 
-      <Spacer height={24} />
+      {/*<Spacer height={24} />*/}
 
       <SideProjects />
 
@@ -49,10 +53,6 @@ const App: React.FC = () => {
       <Spacer height={24} />
 
       <VolunteerExperience />
-
-      <Spacer height={24} />
-
-      <WorkExperience />
 
       {/* <Spacer height={24} />
 
