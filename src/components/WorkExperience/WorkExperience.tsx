@@ -68,11 +68,21 @@ const WorkExperience: React.FC = () => {
             <Spacer height={12}/>
 
             {renderWorkExperience({
+                title: "Senior React and React Native at Caidr (Contractor)",
+                time: "August 2021 - now",
+                location: "Ho Chi Minh, Vietnam",
+                techStack:
+                    "React, NextJS, React Native, Restful API, Firebase, GraphQL, Elixir, MongoDB.",
+            })}
+
+            <Spacer height={24}/>
+
+            {renderWorkExperience({
                 title: "Senior React and React Native at ORKESTRO",
                 time: "March 2019 - February 2020",
                 location: "London, United Kingdom",
                 techStack:
-                    "React, React Native, WebSocket, Restful API, GraphQL, Elixir, MongoDB.",
+                    "React, React Native, WebSocket, Restful API, Firebase, GraphQL, Elixir, MongoDB.",
             })}
 
             <Spacer height={24}/>

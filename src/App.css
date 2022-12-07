@@ -67,6 +67,12 @@
   transition: background-color ease-in-out 0.5s;
 }
 
+.app {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 @media (prefers-color-scheme: light) {
   html {
     background-color: white;
@@ -74,7 +80,6 @@
 
   .app {
     color: #2e3337;
-    padding: 24px;
   }
 
   a {
@@ -93,7 +98,6 @@
 
   .app {
     color: white;
-    padding: 24px;
   }
 
   a {

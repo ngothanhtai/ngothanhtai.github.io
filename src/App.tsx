@@ -14,51 +14,51 @@ import { VolunteerExperience } from "./components/VolunteerExperience/VolunteerE
 import { WorkExperience } from "./components/WorkExperience/WorkExperience";
 
 const App: React.FC = () => {
-  return (
-    <article className="app">
-      <Profile />
+    return (
+        <article className="app">
+            <Profile/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <TableOfContents />
+            <TableOfContents/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <Summary />
+            <Summary/>
 
-        <Spacer height={24} />
+            <Spacer height={24}/>
 
-        <WorkExperience />
+            <WorkExperience/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      {/*<Skills />*/}
+            {/*<Skills />*/}
 
-      {/*<Spacer height={24} />*/}
+            {/*<Spacer height={24} />*/}
 
-      <SideProjects />
+            <SideProjects/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <Education />
+            <Education/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <Languages />
+            <Languages/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <Awards />
+            <Awards/>
 
-      <Spacer height={24} />
+            <Spacer height={24}/>
 
-      <VolunteerExperience />
+            <VolunteerExperience/>
 
-      {/* <Spacer height={24} />
+            {/* <Spacer height={24} />
 
       <Publication /> */}
-    </article>
-  );
+        </article>
+    );
 };
 
 export default App;
