@@ -17,11 +17,11 @@ const Summary: React.FC = () => {
       <Spacer height={12} />
       <div>
         <p className="body">
-          A front end developer based in Vietnam, with  8+ years of working in developing websites, mobiles, and games.
+          A front-end developer based in Vietnam, with years of working in developing websites and mobiles.
         </p>
 
         <p className="body">
-          Looking for Senior React and React Native (on-site only).
+          Looking for Senior React and React Native jobs.
         </p>
       </div>
     </section>
