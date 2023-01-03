@@ -28,7 +28,7 @@ const Languages: React.FC = () => {
 
           <Spacer height={6} />
           <p>
-            IELTS UKVI Certificate with band score: <b>5.5</b>
+            IELTS UKVI Certificate with band score: <b>5.5</b> (B2 - Upper Intermediate)
           </p>
           <Spacer height={6} />
 
