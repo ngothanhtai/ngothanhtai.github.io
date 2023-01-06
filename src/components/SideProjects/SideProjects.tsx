@@ -129,6 +129,16 @@ const SideProjects: React.FC = () => {
         );
       })}
 
+      <Spacer height={12}/>
+
+      <ul>
+        <li>
+          <h1 className={'subtitle'}>Manage food orders (for my parents in Vietnam to process orders).</h1>
+          <p>To receive food delivery orders from Grab, ShopeeFood, BAEMIN, Gojek, and Loship (sniffing their network requests), integrate with a printer to print out the orders, including reports for revenue and the number of sold items.</p>
+        </li>
+
+      </ul>
+
       {/*<Spacer height={24} />*/}
 
       {/*<div className="subtitle fw500">*/}
