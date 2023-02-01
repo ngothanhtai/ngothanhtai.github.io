@@ -19,10 +19,9 @@ const Summary: React.FC = () => {
                 <p className="body">
                     A front-end developer based in Vietnam, more than 4+ years of working in developing websites, mobiles and 2+ years in Flash/HTML5 games.
                 </p>
-
-                <strong>Specialities</strong>
-
                 <Spacer height={12}/>
+
+                <p className="body">Specialities:</p>
 
                 <ul className={"body"}>
                     <li>
