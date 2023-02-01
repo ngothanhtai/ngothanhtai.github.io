@@ -152,7 +152,7 @@ const WorkExperience: React.FC = () => {
                     "Senior Flash and Unity3D Game Developer at Skoolbo",
                 time: "July 2014 - September 2015",
                 location: "Ho Chi Minh City, Vietnam",
-                techStack: "Flash ActionScript 3, HTML5, Unity 3D C#, and Git.",
+                techStack: "Flash ActionScript 3, HTML5, Restful API, Unity 3D C#, and Git.",
                 whatIDid: <ul>
                     <li>Create a simple quiz game for children using Flash (ActionScript 3) and then convert it to HTML5 to run without Flash.</li>
                     <li>Take advantage of the opportunity to work with Unity 3D, which primarily focuses on 2D user interfaces and bug fixes.</li>
@@ -165,7 +165,7 @@ const WorkExperience: React.FC = () => {
                 title: "Junior/Senior Flash Game Developer at BTS",
                 time: "March 2011 - April 2014",
                 location: "Ho Chi Minh City, Vietnam",
-                techStack: "Flash Actionscript 3, C#, Java, MySQL, and MSSQL",
+                techStack: "Flash Actionscript 3, Socket, C#, Java, MySQL, and MSSQL",
                 whatIDid: <ul>
                     <li>Develop 5+ new games using the existing architecture that are successful and generate revenue for the company.</li>
                     <li>Bug fixes and improvements for existing games.</li>
